@@ -1,0 +1,31 @@
+// Exercises future tool generation in an isolated temporary project, never the live dataset.
+import fs from 'node:fs';
+import os from 'node:os';
+import path from 'node:path';
+import {fileURLToPath} from 'node:url';
+import {execFileSync} from 'node:child_process';
+import assert from 'node:assert/strict';
+const root=path.resolve(path.dirname(fileURLToPath(import.meta.url)),'..');
+const originalData=fs.readFileSync(path.join(root,'data/tools.json'),'utf8');
+const temp=fs.mkdtempSync(path.join(os.tmpdir(),'ai-directory-check-'));
+for(const dir of ['scripts','data','assets'])fs.cpSync(path.join(root,dir),path.join(temp,dir),{recursive:true});
+const fixture=JSON.parse(fs.readFileSync(path.join(temp,'data/tool-template.json'),'utf8'));
+Object.assign(fixture,{slug:'test-fixture',name:'Template Test Fixture',shortDescription:'A fictional record used only to verify page generation.',description:'This is a synthetic fixture for checking static HTML generation. It is never added to the published directory.',officialUrl:'https://example.com',primaryCategory:'ai-chatbots',categories:['ai-chatbots'],bestFor:'Testing the reusable template',features:['Test feature'],useCases:['Test workflow'],audiences:['Test audience'],advantages:['Test advantage'],limitations:['Test limitation'],platforms:['Web'],faqs:[{question:'Is this a real listing?',answer:'No. It is an isolated test fixture.'}],sources:[{label:'Test source',url:'https://example.com'}],dateAdded:'2026-09-12',lastVerified:'2026-09-12',seoTitle:'Template Test Fixture — Validation Only',metaDescription:'Synthetic metadata used only to test the reusable AI tool template.',featured:true});
+fixture.pricing={model:'freemium',freePlan:true,freeTrial:null,startingPrice:0,currency:'USD',billingPeriod:'month',url:'https://example.com',notes:'Synthetic price for testing only.'};
+const draft={...structuredClone(fixture),slug:'pending-fixture',name:'Pending Fixture',status:'draft',primaryCategory:'ai-writing-tools',categories:['ai-writing-tools'],featured:false,pricing:{model:'unknown',freePlan:null,freeTrial:null}};
+const sourceProfile=JSON.parse(originalData).find(t=>t.contentSource);
+fs.writeFileSync(path.join(temp,'data/tools.json'),JSON.stringify([fixture,draft,...(sourceProfile?[sourceProfile]:[])]));
+fs.writeFileSync(path.join(temp,'data/site.json'),JSON.stringify({name:'AI Directory Test',origin:'https://example.com',description:'Test project'}));
+execFileSync(process.execPath,[path.join(temp,'scripts/build.mjs'),'--production'],{stdio:'pipe'});
+execFileSync(process.execPath,[path.join(temp,'scripts/check.mjs')],{stdio:'pipe'});
+const html=fs.readFileSync(path.join(temp,'dist/tools/test-fixture/index.html'),'utf8');
+assert(html.includes('SoftwareApplication'));assert(html.includes('Test limitation'));assert(html.includes('Not verified'));assert(html.includes('"price":0'));
+const sitemap=fs.readFileSync(path.join(temp,'dist/sitemap.xml'),'utf8');
+assert(sitemap.includes('/tools/test-fixture/'));assert(sitemap.includes('/categories/ai-chatbots/'));assert(!sitemap.includes('/categories/ai-writing-tools/'));
+assert(!fs.existsSync(path.join(temp,'dist/tools/pending-fixture/index.html')));
+assert(!sitemap.includes('/tools/pending-fixture/'));
+const index=fs.readFileSync(path.join(temp,'dist/tools/index.html'),'utf8');
+assert(index.includes('Pending Fixture'));assert(index.includes('Details pending'));assert(!index.includes('href="/tools/pending-fixture/"'));
+assert.equal(fs.readFileSync(path.join(root,'data/tools.json'),'utf8'),originalData,'Template check must not change published data');
+if(sourceProfile){const sourced=fs.readFileSync(path.join(temp,'dist/tools',sourceProfile.slug,'index.html'),'utf8');assert(sourced.includes('Sources &amp; editorial notes')||sourced.includes('Sources & editorial notes'));assert(!sourced.includes('Last verified:'));assert(!sourced.includes('"@type":"Offer"'));assert(sitemap.includes('/tools/'+sourceProfile.slug+'/'));}
+console.log('PASS: isolated tool template, pricing schema, categories, production sitemap, and no live sample records.');

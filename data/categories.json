@@ -1,0 +1,170 @@
+[
+  {
+    "slug": "ai-chatbots",
+    "name": "AI Chatbots",
+    "icon": "◎",
+    "description": "Think through ideas, ask questions, and get help with everyday tasks.",
+    "guidance": "Compare context limits, file support, source citations, and access to current information."
+  },
+  {
+    "slug": "ai-writing-tools",
+    "name": "AI Writing Tools",
+    "icon": "✎",
+    "description": "Turn a first thought into clearer copy, stories, and documents.",
+    "guidance": "Look for editing control, tone consistency, language support, and control over the final draft."
+  },
+  {
+    "slug": "ai-image-generators",
+    "name": "AI Image Generators",
+    "icon": "▧",
+    "description": "Explore visual ideas and create images from a prompt or reference.",
+    "guidance": "Check usage rights, editing controls, output resolution, and reference consistency."
+  },
+  {
+    "slug": "ai-video-generators",
+    "name": "AI Video Generators",
+    "icon": "▷",
+    "description": "Create clips, develop scenes, and simplify video production.",
+    "guidance": "Compare clip duration, motion control, resolution, credits, and audio support."
+  },
+  {
+    "slug": "ai-coding-assistants",
+    "name": "AI Coding Assistants",
+    "icon": "⌘",
+    "description": "Get support for writing, understanding, and reviewing code.",
+    "guidance": "Consider editor support, repository context, code privacy, and how changes can be reviewed."
+  },
+  {
+    "slug": "ai-search-engines",
+    "name": "AI Search Engines",
+    "icon": "⌕",
+    "description": "Find answers and explore the sources behind them.",
+    "guidance": "Evaluate source quality, freshness, citation accuracy, and access to original material."
+  },
+  {
+    "slug": "ai-productivity-tools",
+    "name": "AI Productivity Tools",
+    "icon": "▦",
+    "description": "Organize notes, meetings, and the work between them.",
+    "guidance": "Check workflow compatibility, permissions, and export options."
+  },
+  {
+    "slug": "ai-marketing-tools",
+    "name": "AI Marketing Tools",
+    "icon": "↗",
+    "description": "Plan campaigns and create content for your audience.",
+    "guidance": "Compare brand controls, channel support, approvals, and access to performance data."
+  },
+  {
+    "slug": "ai-seo-tools",
+    "name": "AI SEO Tools",
+    "icon": "⌁",
+    "description": "Research search intent and improve content discoverability.",
+    "guidance": "Check data freshness, geographic coverage, and how estimates are distinguished from evidence."
+  },
+  {
+    "slug": "ai-presentation-tools",
+    "name": "AI Presentation Tools",
+    "icon": "▤",
+    "description": "Turn information into presentations with a clear story.",
+    "guidance": "Compare editable exports, brand templates, source attribution, and layout control."
+  },
+  {
+    "slug": "ai-audio-and-music-tools",
+    "name": "AI Audio & Music Tools",
+    "icon": "♫",
+    "description": "Explore music creation, sound editing, and audio workflows.",
+    "guidance": "Review licensing, stem exports, audio quality, and editing controls."
+  },
+  {
+    "slug": "ai-voice-generators",
+    "name": "AI Voice Generators",
+    "icon": "◖",
+    "description": "Create spoken audio for narration and accessible content.",
+    "guidance": "Compare language coverage, pronunciation controls, consent requirements, and voice usage terms."
+  },
+  {
+    "slug": "ai-translation-tools",
+    "name": "AI Translation Tools",
+    "icon": "文",
+    "description": "Translate content and communicate across languages.",
+    "guidance": "Consider language pairs, terminology glossaries, formatting, and human review for sensitive material."
+  },
+  {
+    "slug": "ai-research-tools",
+    "name": "AI Research Tools",
+    "icon": "⊞",
+    "description": "Explore literature, organize evidence, and investigate ideas.",
+    "guidance": "Check database coverage, citation traceability, document limits, and summary accuracy."
+  },
+  {
+    "slug": "ai-data-analysis-tools",
+    "name": "AI Data Analysis Tools",
+    "icon": "▥",
+    "description": "Explore datasets and communicate what the numbers show.",
+    "guidance": "Compare file limits, reproducibility, chart exports, privacy, and access to calculations."
+  },
+  {
+    "slug": "ai-automation-tools",
+    "name": "AI Automation Tools",
+    "icon": "⇄",
+    "description": "Connect applications and reduce repetitive work.",
+    "guidance": "Review integrations, task limits, approval steps, error handling, and action logs."
+  },
+  {
+    "slug": "ai-design-tools",
+    "name": "AI Design Tools",
+    "icon": "◇",
+    "description": "Develop layouts, visual assets, and product design ideas.",
+    "guidance": "Look for editable exports, design-system support, collaboration, and software compatibility."
+  },
+  {
+    "slug": "ai-education-tools",
+    "name": "AI Education Tools",
+    "icon": "⌂",
+    "description": "Support learning, lesson preparation, and guided practice.",
+    "guidance": "Consider age suitability, answer quality, accessibility, student privacy, and support for understanding."
+  },
+  {
+    "slug": "ai-assistants",
+    "name": "AI Assistants",
+    "icon": "◎",
+    "description": "Explore general-purpose help across everyday tasks.",
+    "guidance": "Compare supported tasks, app access, permissions, and the level of control you retain."
+  },
+  {
+    "slug": "ai-coding-agents",
+    "name": "AI Coding Agents",
+    "icon": "⌘",
+    "description": "Explore tools designed to carry out software development tasks.",
+    "guidance": "Check review steps, execution permissions, supported environments, and testing workflows."
+  },
+  {
+    "slug": "ai-website-builders",
+    "name": "AI Website Builders",
+    "icon": "▦",
+    "description": "Explore tools for creating websites with AI assistance.",
+    "guidance": "Compare editing controls, code export, hosting requirements, accessibility, and ongoing costs."
+  },
+  {
+    "slug": "ai-customer-support",
+    "name": "AI Customer Support",
+    "icon": "◇",
+    "description": "Explore AI tools for customer questions and support workflows.",
+    "guidance": "Review knowledge-source controls, human handoff, integrations, and the treatment of customer data."
+  },
+  {
+    "slug": "ai-meeting-assistants",
+    "name": "AI Meeting Assistants",
+    "icon": "▤",
+    "description": "Explore tools for recording, transcribing, and summarizing meetings.",
+    "guidance": "Compare meeting-platform support, consent controls, transcript languages, and data retention."
+  },
+  {
+    "slug": "ai-agents",
+    "name": "AI Agents",
+    "icon": "⇄",
+    "description": "Explore tools that coordinate and perform tasks across workflows.",
+    "guidance": "Check action permissions, approval steps, audit trails, and recovery when a task fails."
+  }
+]
