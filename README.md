@@ -1,6 +1,6 @@
 # AI Directory
 
-A plain HTML, CSS, and JavaScript directory. No database, dependencies, backend framework, or server-side application. The catalog includes 105 tools across 24 categories: 85 detailed profiles populated from the supplied workbook and 20 entries still marked “Details pending”. Workbook verification dates are attributed to the source, not presented as independent verification by the directory.
+A plain HTML, CSS, and JavaScript directory. No database, dependencies, backend framework, or server-side application. The catalog includes 105 complete tool profiles across 24 categories: 85 populated from the supplied workbook and 20 from the supplied JSON research. Research verification dates are attributed to the sources, not presented as independent verification by the directory. See `docs/RESEARCH-IMPORT-REPORT.md` for the latest import.
 
 ## Files
 

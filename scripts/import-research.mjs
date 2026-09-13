@@ -1,0 +1,35 @@
+import fs from 'node:fs';
+import path from 'node:path';
+import assert from 'node:assert/strict';
+import {fileURLToPath} from 'node:url';
+const root=path.resolve(path.dirname(fileURLToPath(import.meta.url)),'..');
+const input=process.argv[2];
+assert(input,'Usage: node scripts/import-research.mjs <research.json>');
+const rows=JSON.parse(fs.readFileSync(input,'utf8'));
+const target=path.join(root,'data/tools.json');
+const tools=JSON.parse(fs.readFileSync(target,'utf8'));
+const cats=JSON.parse(fs.readFileSync(path.join(root,'data/categories.json'),'utf8'));
+const pending=tools.filter(t=>t.status==='draft');
+assert.equal(rows.length,pending.length,'Research must match the remaining drafts exactly');
+const seen=new Set();
+const fields=['shortDescription','description','officialUrl','bestFor','features','useCases','audiences','advantages','limitations','platforms','pricing','api','faqs','sources','lastVerified','metaDescription'];
+for(const row of rows){
+ const t=pending.find(t=>t.name===row.name);
+ assert(t,`No pending match: ${row.name}`);
+ assert(!seen.has(t.slug),`Duplicate: ${row.name}`);seen.add(t.slug);
+ assert.equal(cats.find(c=>c.slug===t.primaryCategory)?.name,row.category,`${row.name}: category mismatch`);
+ for(const field of fields)assert(row[field]!==undefined,`${row.name}: missing ${field}`);
+ for(const field of ['features','useCases','audiences','advantages','limitations','platforms','faqs','sources'])assert(Array.isArray(row[field])&&row[field].length,`${row.name}: empty ${field}`);
+ for(const u of [row.officialUrl,row.pricing.url,...row.sources.map(s=>s.url)])assert(new URL(u).protocol==='https:',`${row.name}: invalid HTTPS source`);
+ assert(/^\d{4}-\d{2}-\d{2}$/.test(row.lastVerified),`${row.name}: invalid research date`);
+ for(const field of fields)t[field]=row[field];
+ t.status='published';
+ t.researchSource={file:path.basename(input),sourceVerificationDate:row.lastVerified};
+ t.contentUpdated=row.lastVerified;
+ t.seoTitle=`${t.name}: Features, Pricing & Use Cases | AI Tool Trail`;
+ t.testing={method:'Research supplied by the directory editor; not independently verified or hands-on tested for this import.',notes:'The research date is supplied by the source. Confirm current plans, restrictions and capabilities using the official links below.'};
+}
+assert.equal(seen.size,pending.length);
+fs.writeFileSync(target,JSON.stringify(tools,null,2)+'\n');
+fs.writeFileSync(path.join(root,'docs/RESEARCH-IMPORT-REPORT.md'),`# Remaining tool research import\n\nImported ${rows.length} supplied research records from ${path.basename(input)}. All existing slugs, category assignments, and original date-added values were preserved. Previously published entries were not changed. Research dates are attributed to the supplied file; this import does not represent independent verification or hands-on testing.\n\n${pending.map(t=>'- '+t.name+' — /tools/'+t.slug+'/').join('\n')}\n\nRemaining drafts: ${tools.filter(t=>t.status==='draft').length}.\n`);
+console.log(`Imported ${seen.size} tools; ${tools.filter(t=>t.status==='draft').length} drafts remain.`);

@@ -12651,9 +12651,9 @@
   {
     "slug": "wix-ai-website-builder",
     "name": "Wix AI Website Builder",
-    "shortDescription": "",
-    "description": "",
-    "officialUrl": "",
+    "shortDescription": "Wix AI Website Builder creates a customizable business website from a conversational brief and keeps it editable inside the broader Wix website platform.",
+    "description": "Wix AI Website Builder is designed for people who want to move from an idea to a functioning site without assembling pages manually. It can generate the initial site structure, copy and visual direction from a conversation, after which the site can be refined with Wix editing tools and connected to Wix features such as domains, payments, bookings, marketing and business management.",
+    "officialUrl": "https://www.wix.com/ai-website-builder",
     "logo": null,
     "primaryCategory": "ai-website-builders",
     "categories": [
@@ -12666,64 +12666,121 @@
       "AI Website Builder",
       "Web Design"
     ],
-    "bestFor": "",
-    "features": [],
-    "useCases": [],
-    "audiences": [],
+    "bestFor": "Small businesses, freelancers and first-time site owners who want AI-assisted setup without giving up a full visual website editor.",
+    "features": [
+      "Conversational AI website generation",
+      "AI-generated site structure, copy and visual direction",
+      "Visual editing after generation",
+      "Responsive website hosting",
+      "SEO and business-management tools",
+      "Optional ecommerce, payments and bookings on eligible plans"
+    ],
+    "useCases": [
+      "Launch a small-business website from a short brief",
+      "Create a portfolio or professional-services site",
+      "Generate a first draft of site copy and page structure",
+      "Build a site with bookings, payments or ecommerce features",
+      "Publish and manage an SEO-oriented business site"
+    ],
+    "audiences": [
+      "small businesses",
+      "freelancers",
+      "entrepreneurs",
+      "creators",
+      "non-technical website owners"
+    ],
     "pricing": {
-      "model": "unknown",
-      "freePlan": null,
-      "freeTrial": null,
-      "startingPrice": null,
-      "currency": null,
-      "billingPeriod": null,
-      "url": "",
-      "notes": ""
+      "model": "freemium subscription",
+      "freePlan": true,
+      "freeTrial": false,
+      "startingPrice": 17,
+      "currency": "USD",
+      "billingPeriod": "month, with the cited entry paid price shown on annual billing",
+      "url": "https://www.wix.com/plans"
     },
-    "platforms": [],
+    "platforms": [
+      "Web"
+    ],
     "api": {
-      "availability": "unknown",
-      "url": "",
-      "notes": ""
+      "availability": "yes"
     },
     "integrations": [],
     "languages": [],
-    "advantages": [],
-    "limitations": [],
+    "advantages": [
+      "Combines AI generation with a mature visual website editor",
+      "Permanent free plan is available for testing and basic publishing",
+      "Large Wix ecosystem covers domains, ecommerce, bookings, marketing and APIs"
+    ],
+    "limitations": [
+      "The free plan uses a Wix-branded domain and branding",
+      "Connecting a custom domain and removing Wix branding require a paid plan",
+      "Advanced commerce, storage and collaborator allowances depend on the selected tier"
+    ],
     "alternatives": [],
     "screenshots": [],
-    "faqs": [],
+    "faqs": [
+      {
+        "question": "Can I build and publish a Wix AI site without paying?",
+        "answer": "Yes. Wix offers a free plan, but the published site uses a Wix-branded URL and Wix branding. A paid plan is needed for a custom domain and other premium capabilities."
+      },
+      {
+        "question": "Does Wix offer a conventional no-charge Premium trial?",
+        "answer": "The pricing page advertises a 14-day money-back period for Premium plans rather than a conventional no-charge trial, so this record marks freeTrial as false."
+      },
+      {
+        "question": "Can developers integrate with Wix programmatically?",
+        "answer": "Yes. Wix provides developer APIs and SDKs for site and business functionality, including REST and JavaScript-based development options."
+      }
+    ],
     "privacy": {
       "policyUrl": "",
       "notes": "",
       "trainingOptOut": null
     },
     "testing": {
-      "method": "",
-      "notes": ""
+      "method": "Research supplied by the directory editor; not independently verified or hands-on tested for this import.",
+      "notes": "The research date is supplied by the source. Confirm current plans, restrictions and capabilities using the official links below."
     },
-    "sources": [],
+    "sources": [
+      {
+        "url": "https://www.wix.com/ai-website-builder",
+        "label": "Wix AI Website Builder"
+      },
+      {
+        "url": "https://www.wix.com/plans",
+        "label": "Wix pricing"
+      },
+      {
+        "url": "https://dev.wix.com/docs/rest",
+        "label": "Wix REST API documentation"
+      }
+    ],
     "dateAdded": "2026-09-12",
-    "lastVerified": "",
-    "seoTitle": "",
-    "metaDescription": "",
+    "lastVerified": "2026-09-13",
+    "seoTitle": "Wix AI Website Builder: Features, Pricing & Use Cases | AI Tool Trail",
+    "metaDescription": "Explore Wix AI Website Builder features, use cases, pricing, free access, limitations, platforms and API availability.",
     "featured": false,
     "popularityEvidence": null,
-    "status": "draft",
+    "status": "published",
     "submission": {
       "name": "Wix AI Website Builder",
       "mainCategory": "AI Website Builder",
       "secondaryCategory": "Web Design",
       "source": "User-provided list",
       "identityNeedsConfirmation": false
-    }
+    },
+    "researchSource": {
+      "file": "ai_tools_directory_research_2026-09-13.json",
+      "sourceVerificationDate": "2026-09-13"
+    },
+    "contentUpdated": "2026-09-13"
   },
   {
     "slug": "framer-ai",
     "name": "Framer AI",
-    "shortDescription": "",
-    "description": "",
-    "officialUrl": "",
+    "shortDescription": "Framer AI helps generate and refine polished, responsive websites while keeping every result editable in Framer's design-focused site builder.",
+    "description": "Framer AI adds generative workflows to Framer's website design and publishing environment. Users can create pages and sections, improve copy and visuals, generate interactive components and run AI-assisted review tasks, while retaining hands-on control over layout, animation, responsiveness, CMS content and publishing.",
+    "officialUrl": "https://www.framer.com/ai/",
     "logo": null,
     "primaryCategory": "ai-website-builders",
     "categories": [
@@ -12736,64 +12793,123 @@
       "AI Website Builder",
       "Web Design"
     ],
-    "bestFor": "",
-    "features": [],
-    "useCases": [],
-    "audiences": [],
+    "bestFor": "Designers, startups and marketing teams that want fast AI-assisted site creation with strong visual control and interaction design.",
+    "features": [
+      "AI-generated pages and website sections",
+      "AI writing and content refinement",
+      "AI-assisted visual generation",
+      "Code component generation",
+      "Accessibility and SEO review assistance",
+      "Responsive visual website editor and CMS"
+    ],
+    "useCases": [
+      "Create a landing page from a prompt",
+      "Prototype a startup or product website quickly",
+      "Generate and refine marketing copy",
+      "Build interactive web components",
+      "Review pages for common accessibility, content and SEO issues"
+    ],
+    "audiences": [
+      "web designers",
+      "startups",
+      "marketing teams",
+      "creative agencies",
+      "product teams"
+    ],
     "pricing": {
-      "model": "unknown",
-      "freePlan": null,
-      "freeTrial": null,
-      "startingPrice": null,
-      "currency": null,
-      "billingPeriod": null,
-      "url": "",
-      "notes": ""
+      "model": "freemium subscription with AI credits",
+      "freePlan": true,
+      "freeTrial": true,
+      "startingPrice": 10,
+      "currency": "USD",
+      "billingPeriod": "month, billed annually for the cited Basic price",
+      "url": "https://www.framer.com/pricing/"
     },
-    "platforms": [],
+    "platforms": [
+      "Web",
+      "macOS",
+      "Windows"
+    ],
     "api": {
-      "availability": "unknown",
-      "url": "",
-      "notes": ""
+      "availability": "yes"
     },
     "integrations": [],
     "languages": [],
-    "advantages": [],
-    "limitations": [],
+    "advantages": [
+      "Strong design and animation control after AI generation",
+      "Free plan provides a practical way to try Framer and its AI credits",
+      "Developer ecosystem includes plugin and server APIs"
+    ],
+    "limitations": [
+      "A custom domain requires a paid site plan",
+      "AI usage is governed by credits, so heavy generation can require more capacity",
+      "Some collaboration, staging and enterprise controls are reserved for higher tiers"
+    ],
     "alternatives": [],
     "screenshots": [],
-    "faqs": [],
+    "faqs": [
+      {
+        "question": "Can I use Framer AI on the free plan?",
+        "answer": "Yes. Framer's Free plan includes an allocation of AI credits for trying AI features, although publishing to a custom domain requires a paid plan."
+      },
+      {
+        "question": "What is Framer's entry paid website price?",
+        "answer": "The cited pricing page lists the Basic plan from $10 per month when billed annually."
+      },
+      {
+        "question": "Does Framer expose developer APIs?",
+        "answer": "Yes. Framer documents plugin APIs and a Server API for programmatic workflows and integrations."
+      }
+    ],
     "privacy": {
       "policyUrl": "",
       "notes": "",
       "trainingOptOut": null
     },
     "testing": {
-      "method": "",
-      "notes": ""
+      "method": "Research supplied by the directory editor; not independently verified or hands-on tested for this import.",
+      "notes": "The research date is supplied by the source. Confirm current plans, restrictions and capabilities using the official links below."
     },
-    "sources": [],
+    "sources": [
+      {
+        "url": "https://www.framer.com/ai/",
+        "label": "Framer AI"
+      },
+      {
+        "url": "https://www.framer.com/pricing/",
+        "label": "Framer pricing"
+      },
+      {
+        "url": "https://www.framer.com/developers/",
+        "label": "Framer developer documentation"
+      }
+    ],
     "dateAdded": "2026-09-12",
-    "lastVerified": "",
-    "seoTitle": "",
-    "metaDescription": "",
+    "lastVerified": "2026-09-13",
+    "seoTitle": "Framer AI: Features, Pricing & Use Cases | AI Tool Trail",
+    "metaDescription": "See how Framer AI builds websites, who it suits, current pricing, free access, key limitations, supported platforms and API options.",
     "featured": false,
     "popularityEvidence": null,
-    "status": "draft",
+    "status": "published",
     "submission": {
       "name": "Framer AI",
       "mainCategory": "AI Website Builder",
       "secondaryCategory": "Web Design",
       "source": "User-provided list",
       "identityNeedsConfirmation": false
-    }
+    },
+    "researchSource": {
+      "file": "ai_tools_directory_research_2026-09-13.json",
+      "sourceVerificationDate": "2026-09-13"
+    },
+    "contentUpdated": "2026-09-13"
   },
   {
     "slug": "durable",
     "name": "Durable",
-    "shortDescription": "",
-    "description": "",
-    "officialUrl": "",
+    "shortDescription": "Durable generates a small-business website in seconds and combines it with lightweight CRM, lead, booking, SEO and marketing tools.",
+    "description": "Durable is an AI-first business and website builder aimed at getting service businesses online with minimal setup. After answering a few questions, users receive an editable, responsive website and can manage supporting tasks such as customer records, leads, bookings, content and discoverability from the same product.",
+    "officialUrl": "https://durable.com/ai-website-builder",
     "logo": null,
     "primaryCategory": "ai-website-builders",
     "categories": [
@@ -12806,64 +12922,117 @@
       "AI Website Builder",
       "Small Business"
     ],
-    "bestFor": "",
-    "features": [],
-    "useCases": [],
-    "audiences": [],
+    "bestFor": "Solo operators and small service businesses that value speed and built-in business tools more than deep code-level website customization.",
+    "features": [
+      "AI website generation from a short business brief",
+      "Drag-and-drop editing",
+      "Responsive hosting with SSL",
+      "Built-in CRM and lead management",
+      "Bookings and business-management tools",
+      "AI content, image, blog and SEO/GEO tools"
+    ],
+    "useCases": [
+      "Launch a local service-business website quickly",
+      "Create a simple lead-generation site",
+      "Manage contacts and incoming leads",
+      "Accept bookings and coordinate appointments",
+      "Generate marketing and blog content"
+    ],
+    "audiences": [
+      "solo founders",
+      "local service businesses",
+      "freelancers",
+      "consultants",
+      "small business owners"
+    ],
     "pricing": {
-      "model": "unknown",
-      "freePlan": null,
+      "model": "freemium subscription",
+      "freePlan": true,
       "freeTrial": null,
-      "startingPrice": null,
-      "currency": null,
-      "billingPeriod": null,
-      "url": "",
-      "notes": ""
+      "startingPrice": 22,
+      "currency": "USD",
+      "billingPeriod": "month, billed annually; $25/month on monthly billing for Launch",
+      "url": "https://durable.com/pricing"
     },
-    "platforms": [],
+    "platforms": [
+      "Web"
+    ],
     "api": {
-      "availability": "unknown",
-      "url": "",
-      "notes": ""
+      "availability": "unknown"
     },
     "integrations": [],
     "languages": [],
-    "advantages": [],
-    "limitations": [],
+    "advantages": [
+      "Very fast initial site generation",
+      "Free plan supports testing with a Durable subdomain",
+      "Bundles website, hosting and several small-business tools in one product"
+    ],
+    "limitations": [
+      "Durable says it is not designed specifically for ecommerce businesses",
+      "Extensive HTML customization is not offered because the product is no-code",
+      "Free-plan AI, CRM and branding allowances are limited, and custom-domain use is a paid feature"
+    ],
     "alternatives": [],
     "screenshots": [],
-    "faqs": [],
+    "faqs": [
+      {
+        "question": "Is Durable free to use?",
+        "answer": "Yes. Durable lists a $0 Free plan with a Durable subdomain and limited AI/CRM allowances. Paid plans unlock features such as custom-domain use and broader business tooling."
+      },
+      {
+        "question": "Is Durable a strong fit for a full ecommerce store?",
+        "answer": "Not primarily. Durable's own pricing FAQ says the product is not designed specifically for ecommerce businesses, although businesses can still use it alongside commerce workflows."
+      },
+      {
+        "question": "Can I freely edit a Durable site's HTML?",
+        "answer": "Not extensively. Durable positions the builder as a no-code product and explicitly says it does not offer extensive HTML customization."
+      }
+    ],
     "privacy": {
       "policyUrl": "",
       "notes": "",
       "trainingOptOut": null
     },
     "testing": {
-      "method": "",
-      "notes": ""
+      "method": "Research supplied by the directory editor; not independently verified or hands-on tested for this import.",
+      "notes": "The research date is supplied by the source. Confirm current plans, restrictions and capabilities using the official links below."
     },
-    "sources": [],
+    "sources": [
+      {
+        "url": "https://durable.com/ai-website-builder",
+        "label": "Durable AI Website Builder"
+      },
+      {
+        "url": "https://durable.com/pricing",
+        "label": "Durable pricing"
+      }
+    ],
     "dateAdded": "2026-09-12",
-    "lastVerified": "",
-    "seoTitle": "",
-    "metaDescription": "",
+    "lastVerified": "2026-09-13",
+    "seoTitle": "Durable: Features, Pricing & Use Cases | AI Tool Trail",
+    "metaDescription": "Review Durable's AI website builder, CRM and business tools, plus pricing, free plan, real limitations, ideal users and platform details.",
     "featured": false,
     "popularityEvidence": null,
-    "status": "draft",
+    "status": "published",
     "submission": {
       "name": "Durable",
       "mainCategory": "AI Website Builder",
       "secondaryCategory": "Small Business",
       "source": "User-provided list",
       "identityNeedsConfirmation": false
-    }
+    },
+    "researchSource": {
+      "file": "ai_tools_directory_research_2026-09-13.json",
+      "sourceVerificationDate": "2026-09-13"
+    },
+    "contentUpdated": "2026-09-13"
   },
   {
     "slug": "10web",
     "name": "10Web",
-    "shortDescription": "",
-    "description": "",
-    "officialUrl": "",
+    "shortDescription": "10Web uses AI to generate, recreate and edit WordPress websites while bundling managed hosting and AI-assisted site management.",
+    "description": "10Web is an AI website-building platform built around WordPress. It can generate a site from prompts, recreate an existing site's design in WordPress, help users edit pages through an AI-assisted visual workflow and host the resulting WordPress installation, making it especially relevant to users who want AI speed without leaving the WordPress ecosystem.",
+    "officialUrl": "https://10web.io/ai-website-builder/",
     "logo": null,
     "primaryCategory": "ai-website-builders",
     "categories": [
@@ -12876,64 +13045,127 @@
       "AI Website Builder",
       "WordPress"
     ],
-    "bestFor": "",
-    "features": [],
-    "useCases": [],
-    "audiences": [],
+    "bestFor": "WordPress users, agencies and small businesses that want AI-generated sites with managed hosting and familiar WordPress extensibility.",
+    "features": [
+      "Prompt-based WordPress website generation",
+      "AI website recreation and redesign",
+      "AI co-pilot for editing",
+      "Drag-and-drop page editing",
+      "Managed WordPress hosting",
+      "Responsive and SEO-oriented site generation"
+    ],
+    "useCases": [
+      "Generate a new WordPress business site",
+      "Recreate an existing website in WordPress",
+      "Prototype landing pages quickly",
+      "Host and manage WordPress sites",
+      "Use AI to revise page structure and content"
+    ],
+    "audiences": [
+      "WordPress users",
+      "small businesses",
+      "web agencies",
+      "freelancers",
+      "marketers"
+    ],
     "pricing": {
-      "model": "unknown",
-      "freePlan": null,
-      "freeTrial": null,
-      "startingPrice": null,
-      "currency": null,
-      "billingPeriod": null,
-      "url": "",
-      "notes": ""
+      "model": "freemium subscription",
+      "freePlan": true,
+      "freeTrial": true,
+      "startingPrice": 10,
+      "currency": "USD",
+      "billingPeriod": "month, with the cited entry price tied to annual billing",
+      "url": "https://10web.io/pricing-platform/"
     },
-    "platforms": [],
+    "platforms": [
+      "Web",
+      "WordPress",
+      "REST API"
+    ],
     "api": {
-      "availability": "unknown",
-      "url": "",
-      "notes": ""
+      "availability": "yes"
     },
     "integrations": [],
     "languages": [],
-    "advantages": [],
-    "limitations": [],
+    "advantages": [
+      "Produces sites on WordPress rather than a closed proprietary CMS",
+      "Combines AI generation, editing and managed hosting",
+      "Offers a documented REST API for platform automation"
+    ],
+    "limitations": [
+      "The product is centered on WordPress, which may be unnecessary for users wanting a simpler closed builder",
+      "Free access is limited and full editing is tied to the trial/paid workflow",
+      "Hosting, visitor, storage and AI allowances vary by plan"
+    ],
     "alternatives": [],
     "screenshots": [],
-    "faqs": [],
+    "faqs": [
+      {
+        "question": "Does 10Web have a free way to try the AI builder?",
+        "answer": "Yes. 10Web documents free website generation and a one-week free trial for full editing features; its free access is more limited than a paid subscription."
+      },
+      {
+        "question": "Is the generated site actually WordPress?",
+        "answer": "Yes. 10Web's AI Website Builder is designed around WordPress and combines generation with managed WordPress hosting and editing."
+      },
+      {
+        "question": "Does 10Web provide an API?",
+        "answer": "Yes. 10Web publishes REST API documentation covering website, DNS, domain, SSL, backup and related platform operations."
+      }
+    ],
     "privacy": {
       "policyUrl": "",
       "notes": "",
       "trainingOptOut": null
     },
     "testing": {
-      "method": "",
-      "notes": ""
+      "method": "Research supplied by the directory editor; not independently verified or hands-on tested for this import.",
+      "notes": "The research date is supplied by the source. Confirm current plans, restrictions and capabilities using the official links below."
     },
-    "sources": [],
+    "sources": [
+      {
+        "url": "https://10web.io/ai-website-builder/",
+        "label": "10Web AI Website Builder"
+      },
+      {
+        "url": "https://10web.io/pricing-platform/",
+        "label": "10Web pricing"
+      },
+      {
+        "url": "https://help.10web.io/hc/en-us/articles/360017772899-Get-Started-for-Free-on-10Web",
+        "label": "10Web free access and trial help"
+      },
+      {
+        "url": "https://apidocs.10web.io/",
+        "label": "10Web API documentation"
+      }
+    ],
     "dateAdded": "2026-09-12",
-    "lastVerified": "",
-    "seoTitle": "",
-    "metaDescription": "",
+    "lastVerified": "2026-09-13",
+    "seoTitle": "10Web: Features, Pricing & Use Cases | AI Tool Trail",
+    "metaDescription": "Explore 10Web's AI WordPress builder, hosting, use cases, current pricing, free access, drawbacks and REST API availability.",
     "featured": false,
     "popularityEvidence": null,
-    "status": "draft",
+    "status": "published",
     "submission": {
       "name": "10Web",
       "mainCategory": "AI Website Builder",
       "secondaryCategory": "WordPress",
       "source": "User-provided list",
       "identityNeedsConfirmation": false
-    }
+    },
+    "researchSource": {
+      "file": "ai_tools_directory_research_2026-09-13.json",
+      "sourceVerificationDate": "2026-09-13"
+    },
+    "contentUpdated": "2026-09-13"
   },
   {
     "slug": "hostinger-ai-website-builder",
     "name": "Hostinger AI Website Builder",
-    "shortDescription": "",
-    "description": "",
-    "officialUrl": "",
+    "shortDescription": "Hostinger AI Website Builder generates hosted websites from prompts and packages the builder with Hostinger's hosting, domain and AI website tools.",
+    "description": "Hostinger AI Website Builder is a hosted site-creation product for users who want to generate and publish a website without managing WordPress or server infrastructure. AI assists with the initial site, writing and visual tasks, while the commercial plans bundle hosting and website capacity under Hostinger's subscription model.",
+    "officialUrl": "https://www.hostinger.com/ai-builder",
     "logo": null,
     "primaryCategory": "ai-website-builders",
     "categories": [
@@ -12946,64 +13178,125 @@
       "AI Website Builder",
       "Web Design"
     ],
-    "bestFor": "",
-    "features": [],
-    "useCases": [],
-    "audiences": [],
+    "bestFor": "Budget-conscious individuals and small businesses that want an all-in-one hosted website builder with AI assistance.",
+    "features": [
+      "AI-generated website creation",
+      "Visual website editing",
+      "AI writing and site-content tools",
+      "Responsive hosting and SSL",
+      "Domain support",
+      "AI credits included by plan"
+    ],
+    "useCases": [
+      "Launch a simple small-business website",
+      "Create a portfolio or personal site",
+      "Generate a landing page from a prompt",
+      "Draft website copy with AI",
+      "Host multiple small websites on one account where the plan allows"
+    ],
+    "audiences": [
+      "small businesses",
+      "freelancers",
+      "beginners",
+      "creators",
+      "budget-conscious site owners"
+    ],
     "pricing": {
-      "model": "unknown",
-      "freePlan": null,
-      "freeTrial": null,
-      "startingPrice": null,
-      "currency": null,
-      "billingPeriod": null,
-      "url": "",
-      "notes": ""
+      "model": "subscription",
+      "freePlan": false,
+      "freeTrial": true,
+      "startingPrice": 2.99,
+      "currency": "USD",
+      "billingPeriod": "month equivalent on a 48-month prepaid promotional term",
+      "url": "https://www.hostinger.com/ai-builder/pricing"
     },
-    "platforms": [],
+    "platforms": [
+      "Web"
+    ],
     "api": {
-      "availability": "unknown",
-      "url": "",
-      "notes": ""
+      "availability": "yes"
     },
     "integrations": [],
     "languages": [],
-    "advantages": [],
-    "limitations": [],
+    "advantages": [
+      "Low promotional entry price",
+      "Hosting and website building are packaged together",
+      "A free trial/preview path is documented for building before purchase"
+    ],
+    "limitations": [
+      "The lowest advertised monthly equivalent requires a long prepaid term",
+      "Renewal pricing is substantially higher than the promotional rate",
+      "AI credits and number of websites are capped by plan, and fair-use terms apply"
+    ],
     "alternatives": [],
     "screenshots": [],
-    "faqs": [],
+    "faqs": [
+      {
+        "question": "Is Hostinger AI Website Builder permanently free?",
+        "answer": "No permanent free builder plan was listed on the checked pricing page. Hostinger does, however, document a free trial experience for building and previewing before purchase."
+      },
+      {
+        "question": "Why is the headline monthly price so low?",
+        "answer": "The cited $2.99 monthly equivalent is promotional pricing attached to a long prepaid term. Renewal rates are higher, so the full commitment and renewal price matter."
+      },
+      {
+        "question": "Does Hostinger have APIs?",
+        "answer": "Yes. Hostinger publishes developer API documentation, including programmatic management of supported Hostinger services."
+      }
+    ],
     "privacy": {
       "policyUrl": "",
       "notes": "",
       "trainingOptOut": null
     },
     "testing": {
-      "method": "",
-      "notes": ""
+      "method": "Research supplied by the directory editor; not independently verified or hands-on tested for this import.",
+      "notes": "The research date is supplied by the source. Confirm current plans, restrictions and capabilities using the official links below."
     },
-    "sources": [],
+    "sources": [
+      {
+        "url": "https://www.hostinger.com/ai-builder",
+        "label": "Hostinger AI Website Builder"
+      },
+      {
+        "url": "https://www.hostinger.com/ai-builder/pricing",
+        "label": "Hostinger AI Builder pricing"
+      },
+      {
+        "url": "https://www.hostinger.com/support/11131062-hostinger-ai-builder-how-to-try-it-for-free/",
+        "label": "Hostinger AI Builder free-trial help"
+      },
+      {
+        "url": "https://developers.hostinger.com/",
+        "label": "Hostinger developer API"
+      }
+    ],
     "dateAdded": "2026-09-12",
-    "lastVerified": "",
-    "seoTitle": "",
-    "metaDescription": "",
+    "lastVerified": "2026-09-13",
+    "seoTitle": "Hostinger AI Website Builder: Features, Pricing & Use Cases | AI Tool Trail",
+    "metaDescription": "See Hostinger AI Website Builder features, promotional pricing, free trial, AI-credit limits, use cases and API availability.",
     "featured": false,
     "popularityEvidence": null,
-    "status": "draft",
+    "status": "published",
     "submission": {
       "name": "Hostinger AI Website Builder",
       "mainCategory": "AI Website Builder",
       "secondaryCategory": "Web Design",
       "source": "User-provided list",
       "identityNeedsConfirmation": false
-    }
+    },
+    "researchSource": {
+      "file": "ai_tools_directory_research_2026-09-13.json",
+      "sourceVerificationDate": "2026-09-13"
+    },
+    "contentUpdated": "2026-09-13"
   },
   {
     "slug": "julius-ai",
     "name": "Julius AI",
-    "shortDescription": "",
-    "description": "",
-    "officialUrl": "",
+    "shortDescription": "Julius AI lets users analyze files and connected data sources by asking questions in natural language and receiving code-backed analysis, charts and exports.",
+    "description": "Julius AI is an AI data workspace that turns natural-language requests into structured analytical work. Users can upload common file formats or connect live data, ask for calculations and statistical analysis, generate visualizations, work with generated Python or other supported code and export results for continued use.",
+    "officialUrl": "https://julius.ai/",
     "logo": null,
     "primaryCategory": "ai-data-analysis-tools",
     "categories": [
@@ -13016,64 +13309,123 @@
       "AI Data Analysis Tool",
       "Spreadsheet Analysis"
     ],
-    "bestFor": "",
-    "features": [],
-    "useCases": [],
-    "audiences": [],
+    "bestFor": "Analysts, researchers, students and business users who need exploratory analysis and visualization without writing every query or script manually.",
+    "features": [
+      "Natural-language data analysis",
+      "CSV, Excel, JSON, PDF and image uploads",
+      "Database and warehouse connectors",
+      "Chart and visualization generation",
+      "Code-backed statistical analysis",
+      "CSV and Excel export",
+      "Shared workspaces and notebooks"
+    ],
+    "useCases": [
+      "Explore a spreadsheet by asking questions in plain language",
+      "Create charts from uploaded business data",
+      "Run statistical analyses and calculations",
+      "Clean or transform tabular data",
+      "Export analyzed data to CSV or Excel"
+    ],
+    "audiences": [
+      "business analysts",
+      "researchers",
+      "students",
+      "data analysts",
+      "data scientists"
+    ],
     "pricing": {
-      "model": "unknown",
-      "freePlan": null,
+      "model": "freemium subscription with credit-based usage",
+      "freePlan": true,
       "freeTrial": null,
-      "startingPrice": null,
-      "currency": null,
-      "billingPeriod": null,
-      "url": "",
-      "notes": ""
+      "startingPrice": 20,
+      "currency": "USD",
+      "billingPeriod": "month for Plus on monthly billing",
+      "url": "https://julius.ai/pricing"
     },
-    "platforms": [],
+    "platforms": [
+      "Web",
+      "Slack on eligible plans"
+    ],
     "api": {
-      "availability": "unknown",
-      "url": "",
-      "notes": ""
+      "availability": "unknown"
     },
     "integrations": [],
     "languages": [],
-    "advantages": [],
-    "limitations": [],
+    "advantages": [
+      "Low barrier to entry for common analytical workflows",
+      "Can show and execute code-backed analysis rather than only returning prose",
+      "Supports both uploaded files and connected data sources"
+    ],
+    "limitations": [
+      "Usage is metered through credits on paid plans",
+      "More advanced database, team and agent capabilities are concentrated in higher tiers",
+      "AI-generated statistical results still require human validation for important decisions"
+    ],
     "alternatives": [],
     "screenshots": [],
-    "faqs": [],
+    "faqs": [
+      {
+        "question": "What file types can Julius analyze?",
+        "answer": "Julius documents support for formats including CSV, Excel, JSON, PDF and images, and it can also connect to databases and warehouses."
+      },
+      {
+        "question": "Can Julius create charts and export results?",
+        "answer": "Yes. It can generate common visualizations and export resulting data to CSV or Excel."
+      },
+      {
+        "question": "Does Julius have a verified public developer API?",
+        "answer": "A general public API was not confirmed in the official pages checked for this pass, so API availability is marked unknown rather than inferred."
+      }
+    ],
     "privacy": {
       "policyUrl": "",
       "notes": "",
       "trainingOptOut": null
     },
     "testing": {
-      "method": "",
-      "notes": ""
+      "method": "Research supplied by the directory editor; not independently verified or hands-on tested for this import.",
+      "notes": "The research date is supplied by the source. Confirm current plans, restrictions and capabilities using the official links below."
     },
-    "sources": [],
+    "sources": [
+      {
+        "url": "https://julius.ai/pricing",
+        "label": "Julius pricing"
+      },
+      {
+        "url": "https://julius.ai/docs/get-started/what-is-Julius-AI",
+        "label": "What is Julius AI"
+      },
+      {
+        "url": "https://julius.ai/docs/get-started/quickstart",
+        "label": "Julius quickstart"
+      }
+    ],
     "dateAdded": "2026-09-12",
-    "lastVerified": "",
-    "seoTitle": "",
-    "metaDescription": "",
+    "lastVerified": "2026-09-13",
+    "seoTitle": "Julius AI: Features, Pricing & Use Cases | AI Tool Trail",
+    "metaDescription": "Learn what Julius AI can analyze, its data and chart features, current pricing, free plan, limitations and best use cases.",
     "featured": false,
     "popularityEvidence": null,
-    "status": "draft",
+    "status": "published",
     "submission": {
       "name": "Julius AI",
       "mainCategory": "AI Data Analysis Tool",
       "secondaryCategory": "Spreadsheet Analysis",
       "source": "User-provided list",
       "identityNeedsConfirmation": false
-    }
+    },
+    "researchSource": {
+      "file": "ai_tools_directory_research_2026-09-13.json",
+      "sourceVerificationDate": "2026-09-13"
+    },
+    "contentUpdated": "2026-09-13"
   },
   {
     "slug": "datarobot",
     "name": "DataRobot",
-    "shortDescription": "",
-    "description": "",
-    "officialUrl": "",
+    "shortDescription": "DataRobot is an enterprise AI platform for building, governing and operating predictive and generative AI applications across business data.",
+    "description": "DataRobot targets organizations that need a governed platform rather than a lightweight spreadsheet assistant. Its platform spans data preparation, model development, deployment, monitoring and generative-AI workflows, with enterprise controls and multiple deployment patterns for teams that need repeatable production AI operations.",
+    "officialUrl": "https://www.datarobot.com/",
     "logo": null,
     "primaryCategory": "ai-data-analysis-tools",
     "categories": [
@@ -13086,64 +13438,127 @@
       "AI Data Analysis Tool",
       "Enterprise AI"
     ],
-    "bestFor": "",
-    "features": [],
-    "useCases": [],
-    "audiences": [],
+    "bestFor": "Enterprise data-science, analytics and AI teams that need governed model development, deployment and monitoring at organizational scale.",
+    "features": [
+      "Predictive AI model development",
+      "Generative AI application workflows",
+      "Model deployment and monitoring",
+      "AI governance and observability",
+      "Automated machine-learning workflows",
+      "REST API and Python client",
+      "Cloud, VPC and enterprise deployment options"
+    ],
+    "useCases": [
+      "Build and deploy predictive models",
+      "Operationalize enterprise generative-AI applications",
+      "Monitor model performance and risk",
+      "Standardize governed AI workflows across teams",
+      "Integrate model operations into internal applications"
+    ],
+    "audiences": [
+      "enterprise data-science teams",
+      "ML engineers",
+      "AI platform teams",
+      "analytics leaders",
+      "regulated organizations"
+    ],
     "pricing": {
-      "model": "unknown",
-      "freePlan": null,
-      "freeTrial": null,
+      "model": "enterprise subscription / custom pricing",
+      "freePlan": false,
+      "freeTrial": true,
       "startingPrice": null,
       "currency": null,
       "billingPeriod": null,
-      "url": "",
-      "notes": ""
+      "url": "https://www.datarobot.com/pricing/"
     },
-    "platforms": [],
+    "platforms": [
+      "Web",
+      "SaaS",
+      "VPC",
+      "on-premises",
+      "REST API",
+      "Python client"
+    ],
     "api": {
-      "availability": "unknown",
-      "url": "",
-      "notes": ""
+      "availability": "yes"
     },
     "integrations": [],
     "languages": [],
-    "advantages": [],
-    "limitations": [],
+    "advantages": [
+      "Broad lifecycle coverage from development through production monitoring",
+      "Strong governance and enterprise deployment orientation",
+      "Official REST API and Python client support"
+    ],
+    "limitations": [
+      "Public list pricing is not provided on the checked pricing route",
+      "The platform is significantly more complex than self-service spreadsheet analysis tools",
+      "Features, model access and limits can depend on the purchased package and infrastructure"
+    ],
     "alternatives": [],
     "screenshots": [],
-    "faqs": [],
+    "faqs": [
+      {
+        "question": "Does DataRobot have a free trial?",
+        "answer": "Yes. DataRobot's current trial FAQ documents a one-time 30-day trial with access to the platform subject to stated trial limits."
+      },
+      {
+        "question": "Is DataRobot pricing publicly listed?",
+        "answer": "A current public numerical starting price was not found on the official pricing route checked, so startingPrice is left null."
+      },
+      {
+        "question": "Can DataRobot be automated through an API?",
+        "answer": "Yes. DataRobot documents REST API access and a Python client, including during its trial environment."
+      }
+    ],
     "privacy": {
       "policyUrl": "",
       "notes": "",
       "trainingOptOut": null
     },
     "testing": {
-      "method": "",
-      "notes": ""
+      "method": "Research supplied by the directory editor; not independently verified or hands-on tested for this import.",
+      "notes": "The research date is supplied by the source. Confirm current plans, restrictions and capabilities using the official links below."
     },
-    "sources": [],
+    "sources": [
+      {
+        "url": "https://www.datarobot.com/product/ai-platform/",
+        "label": "DataRobot AI Platform"
+      },
+      {
+        "url": "https://docs.datarobot.com/latest/en/docs/get-started/day0/trial-faq.html",
+        "label": "DataRobot trial FAQ"
+      },
+      {
+        "url": "https://www.datarobot.com/pricing/",
+        "label": "DataRobot pricing route"
+      }
+    ],
     "dateAdded": "2026-09-12",
-    "lastVerified": "",
-    "seoTitle": "",
-    "metaDescription": "",
+    "lastVerified": "2026-09-13",
+    "seoTitle": "DataRobot: Features, Pricing & Use Cases | AI Tool Trail",
+    "metaDescription": "Explore DataRobot's enterprise AI features, trial, APIs, deployment options, use cases, limitations and custom-pricing model.",
     "featured": false,
     "popularityEvidence": null,
-    "status": "draft",
+    "status": "published",
     "submission": {
       "name": "DataRobot",
       "mainCategory": "AI Data Analysis Tool",
       "secondaryCategory": "Enterprise AI",
       "source": "User-provided list",
       "identityNeedsConfirmation": false
-    }
+    },
+    "researchSource": {
+      "file": "ai_tools_directory_research_2026-09-13.json",
+      "sourceVerificationDate": "2026-09-13"
+    },
+    "contentUpdated": "2026-09-13"
   },
   {
     "slug": "akkio",
     "name": "Akkio",
-    "shortDescription": "",
-    "description": "",
-    "officialUrl": "",
+    "shortDescription": "Akkio is an AI analytics platform focused on letting teams create domain-specific analytical agents and embed AI-driven analysis into workflows.",
+    "description": "Akkio packages conversational analytics and domain-specific AI agents for organizations that want to turn recurring data questions into reusable workflows. Its current positioning is particularly strong around agency and business analytics, with options to customize, integrate and embed analytical experiences rather than relying only on one-off chats.",
+    "officialUrl": "https://www.akkio.com/",
     "logo": null,
     "primaryCategory": "ai-data-analysis-tools",
     "categories": [
@@ -13156,64 +13571,120 @@
       "AI Data Analysis Tool",
       "Workflow Automation"
     ],
-    "bestFor": "",
-    "features": [],
-    "useCases": [],
-    "audiences": [],
+    "bestFor": "Agencies and business teams that want customized AI analytics agents connected to their own reporting and client-data workflows.",
+    "features": [
+      "Domain-specific AI analytics agents",
+      "Conversational data exploration",
+      "Custom analytical workflows",
+      "Embeddable analytics experiences",
+      "Enterprise integrations",
+      "REST API"
+    ],
+    "useCases": [
+      "Build a client-facing analytics agent",
+      "Analyze campaign or business-performance data",
+      "Automate recurring analytical questions",
+      "Embed AI analytics into an existing product or portal",
+      "Connect data workflows through API integrations"
+    ],
+    "audiences": [
+      "media agencies",
+      "analytics teams",
+      "business intelligence teams",
+      "client-service teams",
+      "software teams embedding analytics"
+    ],
     "pricing": {
-      "model": "unknown",
-      "freePlan": null,
+      "model": "enterprise subscription / custom pricing",
+      "freePlan": false,
       "freeTrial": null,
       "startingPrice": null,
       "currency": null,
       "billingPeriod": null,
-      "url": "",
-      "notes": ""
+      "url": "https://www.akkio.com/pricing"
     },
-    "platforms": [],
+    "platforms": [
+      "Web",
+      "SaaS",
+      "embedded deployment",
+      "REST API"
+    ],
     "api": {
-      "availability": "unknown",
-      "url": "",
-      "notes": ""
+      "availability": "yes"
     },
     "integrations": [],
     "languages": [],
-    "advantages": [],
-    "limitations": [],
+    "advantages": [
+      "Agent-oriented approach for repeatable domain-specific analysis",
+      "Supports SaaS and embedded deployment patterns",
+      "Official REST API documentation is available"
+    ],
+    "limitations": [
+      "Current public pricing is sales-led rather than self-service",
+      "The product's present positioning is narrower and more agency-focused than broad general-purpose analytics platforms",
+      "The documented REST API is labeled beta, so interfaces may evolve"
+    ],
     "alternatives": [],
     "screenshots": [],
-    "faqs": [],
+    "faqs": [
+      {
+        "question": "Does Akkio publish a self-service starting price?",
+        "answer": "No numerical self-service starting price was shown on the current official pricing page checked; the enterprise offering uses contact-sales pricing."
+      },
+      {
+        "question": "Can Akkio be embedded in another product?",
+        "answer": "Yes. Akkio's current offering includes embedded usage and integrations for organizations that want analytics inside their own workflows."
+      },
+      {
+        "question": "Is the Akkio REST API stable?",
+        "answer": "Akkio publishes a REST API, but the official API introduction labels it beta, which is a meaningful consideration for production integrations."
+      }
+    ],
     "privacy": {
       "policyUrl": "",
       "notes": "",
       "trainingOptOut": null
     },
     "testing": {
-      "method": "",
-      "notes": ""
+      "method": "Research supplied by the directory editor; not independently verified or hands-on tested for this import.",
+      "notes": "The research date is supplied by the source. Confirm current plans, restrictions and capabilities using the official links below."
     },
-    "sources": [],
+    "sources": [
+      {
+        "url": "https://www.akkio.com/pricing",
+        "label": "Akkio pricing"
+      },
+      {
+        "url": "https://docs.akkio.com/akkio-docs/rest-api/api-introduction",
+        "label": "Akkio REST API introduction"
+      }
+    ],
     "dateAdded": "2026-09-12",
-    "lastVerified": "",
-    "seoTitle": "",
-    "metaDescription": "",
+    "lastVerified": "2026-09-13",
+    "seoTitle": "Akkio: Features, Pricing & Use Cases | AI Tool Trail",
+    "metaDescription": "Review Akkio's AI analytics agents, embedded use cases, enterprise pricing model, API availability, strengths and limitations.",
     "featured": false,
     "popularityEvidence": null,
-    "status": "draft",
+    "status": "published",
     "submission": {
       "name": "Akkio",
       "mainCategory": "AI Data Analysis Tool",
       "secondaryCategory": "Workflow Automation",
       "source": "User-provided list",
       "identityNeedsConfirmation": false
-    }
+    },
+    "researchSource": {
+      "file": "ai_tools_directory_research_2026-09-13.json",
+      "sourceVerificationDate": "2026-09-13"
+    },
+    "contentUpdated": "2026-09-13"
   },
   {
     "slug": "obviously-ai",
     "name": "Obviously AI",
-    "shortDescription": "",
-    "description": "",
-    "officialUrl": "",
+    "shortDescription": "Obviously AI provides no-code predictive analytics and AI-agent workflows for teams that want to build models and predictions without a traditional data-science stack.",
+    "description": "Obviously AI is a no-code analytics and machine-learning platform built for business teams that want predictions without manually coding models. The platform supports common predictive tasks such as classification, regression, time-series work and clustering, while also exposing REST APIs and paid service tiers for larger datasets and supported use cases.",
+    "officialUrl": "https://obviously.ai/",
     "logo": null,
     "primaryCategory": "ai-data-analysis-tools",
     "categories": [
@@ -13226,64 +13697,119 @@
       "AI Data Analysis Tool",
       "No-Code Machine Learning"
     ],
-    "bestFor": "",
-    "features": [],
-    "useCases": [],
-    "audiences": [],
+    "bestFor": "Business teams and analysts that need quick predictive models without maintaining their own machine-learning development environment.",
+    "features": [
+      "No-code predictive modeling",
+      "Classification and regression",
+      "Time-series analysis",
+      "Clustering",
+      "AI agents and custom LLM workflows",
+      "REST API",
+      "Automation and RPA capabilities"
+    ],
+    "useCases": [
+      "Predict churn or conversion likelihood",
+      "Forecast business metrics",
+      "Segment customers or records",
+      "Build predictive scoring workflows",
+      "Expose predictions to another application through REST APIs"
+    ],
+    "audiences": [
+      "business analysts",
+      "operations teams",
+      "growth teams",
+      "small data teams",
+      "non-technical decision makers"
+    ],
     "pricing": {
-      "model": "unknown",
-      "freePlan": null,
+      "model": "freemium subscription / custom paid pricing",
+      "freePlan": true,
       "freeTrial": null,
       "startingPrice": null,
       "currency": null,
       "billingPeriod": null,
-      "url": "",
-      "notes": ""
+      "url": "https://obviously.ai/pricing"
     },
-    "platforms": [],
+    "platforms": [
+      "Web",
+      "REST API"
+    ],
     "api": {
-      "availability": "unknown",
-      "url": "",
-      "notes": ""
+      "availability": "yes"
     },
     "integrations": [],
     "languages": [],
-    "advantages": [],
-    "limitations": [],
+    "advantages": [
+      "Free plan gives users a way to test predictive modeling",
+      "Supports several common prediction types without requiring code",
+      "REST API is explicitly included in the platform offering"
+    ],
+    "limitations": [
+      "Paid-plan prices are not publicly listed on the checked pricing page",
+      "The free tier is CSV-focused and has file/row limits",
+      "Prediction allowances, use-case counts and maximum dataset sizes vary by tier"
+    ],
     "alternatives": [],
     "screenshots": [],
-    "faqs": [],
+    "faqs": [
+      {
+        "question": "Does Obviously AI have a free plan?",
+        "answer": "Yes. The current pricing page lists a Free tier with a defined prediction allowance, one seat and limits on file size and rows."
+      },
+      {
+        "question": "Which predictive tasks does the free tier cover?",
+        "answer": "The pricing page lists classification, regression, time-series and clustering among the supported modeling types."
+      },
+      {
+        "question": "Can predictions be integrated into another application?",
+        "answer": "Yes. Obviously AI lists REST APIs as part of the product, enabling programmatic use of supported workflows."
+      }
+    ],
     "privacy": {
       "policyUrl": "",
       "notes": "",
       "trainingOptOut": null
     },
     "testing": {
-      "method": "",
-      "notes": ""
+      "method": "Research supplied by the directory editor; not independently verified or hands-on tested for this import.",
+      "notes": "The research date is supplied by the source. Confirm current plans, restrictions and capabilities using the official links below."
     },
-    "sources": [],
+    "sources": [
+      {
+        "url": "https://obviously.ai/",
+        "label": "Obviously AI"
+      },
+      {
+        "url": "https://obviously.ai/pricing",
+        "label": "Obviously AI pricing"
+      }
+    ],
     "dateAdded": "2026-09-12",
-    "lastVerified": "",
-    "seoTitle": "",
-    "metaDescription": "",
+    "lastVerified": "2026-09-13",
+    "seoTitle": "Obviously AI: Features, Pricing & Use Cases | AI Tool Trail",
+    "metaDescription": "Explore Obviously AI's no-code predictive models, free plan, REST API, supported use cases, pricing model and practical limitations.",
     "featured": false,
     "popularityEvidence": null,
-    "status": "draft",
+    "status": "published",
     "submission": {
       "name": "Obviously AI",
       "mainCategory": "AI Data Analysis Tool",
       "secondaryCategory": "No-Code Machine Learning",
       "source": "User-provided list",
       "identityNeedsConfirmation": false
-    }
+    },
+    "researchSource": {
+      "file": "ai_tools_directory_research_2026-09-13.json",
+      "sourceVerificationDate": "2026-09-13"
+    },
+    "contentUpdated": "2026-09-13"
   },
   {
     "slug": "power-bi-copilot",
     "name": "Power BI Copilot",
-    "shortDescription": "",
-    "description": "",
-    "officialUrl": "",
+    "shortDescription": "Power BI Copilot adds generative-AI assistance to Power BI for exploring data, creating and summarizing reports, and working with prepared semantic models.",
+    "description": "Power BI Copilot is Microsoft's generative-AI layer inside the Power BI and Fabric analytics experience. It can assist users with report creation, data questions, summaries and analysis, but access is tied to an organization's eligible paid Microsoft Fabric or Power BI Premium capacity and to tenant, region and workspace configuration.",
+    "officialUrl": "https://www.microsoft.com/en-us/power-platform/products/power-bi",
     "logo": null,
     "primaryCategory": "ai-data-analysis-tools",
     "categories": [
@@ -13296,64 +13822,124 @@
       "AI Data Analysis Tool",
       "Business Intelligence"
     ],
-    "bestFor": "",
-    "features": [],
-    "useCases": [],
-    "audiences": [],
+    "bestFor": "Organizations already using Microsoft Power BI or Fabric that want generative-AI assistance inside governed BI workflows.",
+    "features": [
+      "Natural-language assistance inside Power BI",
+      "Report and page creation assistance",
+      "Report summarization",
+      "Questions over prepared semantic models",
+      "Copilot experiences in supported Power BI surfaces",
+      "Enterprise tenant and capacity controls"
+    ],
+    "useCases": [
+      "Summarize a Power BI report",
+      "Ask questions about a governed semantic model",
+      "Draft report content or visuals with AI assistance",
+      "Help report authors explore analytical questions",
+      "Provide AI-assisted insight discovery to business users"
+    ],
+    "audiences": [
+      "Power BI users",
+      "BI analysts",
+      "data teams",
+      "enterprise decision makers",
+      "Microsoft Fabric customers"
+    ],
     "pricing": {
-      "model": "unknown",
-      "freePlan": null,
-      "freeTrial": null,
+      "model": "capacity-based enterprise licensing",
+      "freePlan": false,
+      "freeTrial": false,
       "startingPrice": null,
       "currency": null,
       "billingPeriod": null,
-      "url": "",
-      "notes": ""
+      "url": "https://www.microsoft.com/en-us/power-platform/products/power-bi/pricing"
     },
-    "platforms": [],
+    "platforms": [
+      "Power BI Service (Web)",
+      "Power BI Desktop (Windows)",
+      "Power BI Mobile",
+      "Power BI Embedded"
+    ],
     "api": {
-      "availability": "unknown",
-      "url": "",
-      "notes": ""
+      "availability": "unknown"
     },
     "integrations": [],
     "languages": [],
-    "advantages": [],
-    "limitations": [],
+    "advantages": [
+      "Works inside an established enterprise BI and governance ecosystem",
+      "Can use existing Power BI semantic models and reports",
+      "Available across multiple supported Power BI experiences when capacity requirements are met"
+    ],
+    "limitations": [
+      "Requires eligible paid Fabric F2+ or Power BI Premium P1+ capacity",
+      "Free and trial capacities do not qualify for Copilot",
+      "Tenant settings, supported region and model preparation affect availability and quality; sovereign clouds are not supported"
+    ],
     "alternatives": [],
     "screenshots": [],
-    "faqs": [],
+    "faqs": [
+      {
+        "question": "Can I use Power BI Copilot with a free Power BI account?",
+        "answer": "Not by itself. Microsoft's current requirements state that Copilot needs a workspace backed by eligible paid Fabric F2+ or Power BI Premium P1+ capacity."
+      },
+      {
+        "question": "Does a trial Fabric capacity unlock Power BI Copilot?",
+        "answer": "No. Microsoft explicitly states that trial capacities and free SKUs are not supported for Copilot."
+      },
+      {
+        "question": "Is there a dedicated public Power BI Copilot API?",
+        "answer": "A dedicated Copilot API was not verified in the official sources checked for this record. Power BI has broader developer APIs, but this field is intentionally marked unknown for Copilot itself."
+      }
+    ],
     "privacy": {
       "policyUrl": "",
       "notes": "",
       "trainingOptOut": null
     },
     "testing": {
-      "method": "",
-      "notes": ""
+      "method": "Research supplied by the directory editor; not independently verified or hands-on tested for this import.",
+      "notes": "The research date is supplied by the source. Confirm current plans, restrictions and capabilities using the official links below."
     },
-    "sources": [],
+    "sources": [
+      {
+        "url": "https://www.microsoft.com/en-us/power-platform/products/power-bi/pricing",
+        "label": "Power BI pricing"
+      },
+      {
+        "url": "https://learn.microsoft.com/en-us/power-bi/create-reports/copilot-introduction",
+        "label": "Copilot for Power BI overview"
+      },
+      {
+        "url": "https://learn.microsoft.com/en-us/power-bi/create-reports/copilot-power-bi-desktop",
+        "label": "Copilot in Power BI Desktop requirements"
+      }
+    ],
     "dateAdded": "2026-09-12",
-    "lastVerified": "",
-    "seoTitle": "",
-    "metaDescription": "",
+    "lastVerified": "2026-09-13",
+    "seoTitle": "Power BI Copilot: Features, Pricing & Use Cases | AI Tool Trail",
+    "metaDescription": "See Power BI Copilot features, capacity requirements, supported platforms, free-access limits, use cases and current pricing structure.",
     "featured": false,
     "popularityEvidence": null,
-    "status": "draft",
+    "status": "published",
     "submission": {
       "name": "Power BI Copilot",
       "mainCategory": "AI Data Analysis Tool",
       "secondaryCategory": "Business Intelligence",
       "source": "User-provided list",
       "identityNeedsConfirmation": false
-    }
+    },
+    "researchSource": {
+      "file": "ai_tools_directory_research_2026-09-13.json",
+      "sourceVerificationDate": "2026-09-13"
+    },
+    "contentUpdated": "2026-09-13"
   },
   {
     "slug": "fin-by-intercom",
     "name": "Fin by Intercom",
-    "shortDescription": "",
-    "description": "",
-    "officialUrl": "",
+    "shortDescription": "Fin is Intercom's AI customer-service agent for resolving support conversations across service channels and handing unresolved work to human teams.",
+    "description": "Fin is an AI support agent built into Intercom and also offered for use alongside selected existing help-desk environments. It answers customer questions from company knowledge, can execute supported procedures and escalate when needed, while Intercom charges primarily around successful AI outcomes rather than only seats.",
+    "officialUrl": "https://www.intercom.com/fin",
     "logo": null,
     "primaryCategory": "ai-customer-support",
     "categories": [
@@ -13367,64 +13953,126 @@
       "AI Customer Support",
       "AI Agent"
     ],
-    "bestFor": "",
-    "features": [],
-    "useCases": [],
-    "audiences": [],
+    "bestFor": "Support organizations that want an AI agent to resolve repetitive customer conversations while preserving escalation to human agents.",
+    "features": [
+      "AI customer-question resolution",
+      "Knowledge-grounded responses",
+      "Procedure and workflow execution",
+      "Human-agent handoff",
+      "Multi-channel support workflows",
+      "Outcome reporting and optimization",
+      "Fin Agent API"
+    ],
+    "useCases": [
+      "Resolve common support questions automatically",
+      "Handle repetitive troubleshooting flows",
+      "Collect information before human escalation",
+      "Deflect routine ticket volume",
+      "Deploy AI support alongside an existing help desk"
+    ],
+    "audiences": [
+      "customer support teams",
+      "SaaS companies",
+      "support operations leaders",
+      "help-desk teams",
+      "digital customer-service organizations"
+    ],
     "pricing": {
-      "model": "unknown",
-      "freePlan": null,
-      "freeTrial": null,
-      "startingPrice": null,
-      "currency": null,
-      "billingPeriod": null,
-      "url": "",
-      "notes": ""
+      "model": "usage-based per outcome, with optional Intercom seat subscriptions",
+      "freePlan": false,
+      "freeTrial": true,
+      "startingPrice": 0.99,
+      "currency": "USD",
+      "billingPeriod": "per standard Fin outcome",
+      "url": "https://www.intercom.com/pricing"
     },
-    "platforms": [],
+    "platforms": [
+      "Web",
+      "Intercom Messenger",
+      "email",
+      "supported help-desk integrations",
+      "API"
+    ],
     "api": {
-      "availability": "unknown",
-      "url": "",
-      "notes": ""
+      "availability": "yes"
     },
     "integrations": [],
     "languages": [],
-    "advantages": [],
-    "limitations": [],
+    "advantages": [
+      "Outcome-based billing aligns cost with completed AI work",
+      "Can operate inside Intercom or with supported external help-desk setups",
+      "Official Fin Agent API is available for programmatic use"
+    ],
+    "limitations": [
+      "Total cost can combine Intercom seat fees with Fin outcome charges",
+      "Standalone Fin deployments can involve minimum outcome commitments",
+      "Some outcome types, channels and advanced capabilities have different or separately quoted pricing"
+    ],
     "alternatives": [],
     "screenshots": [],
-    "faqs": [],
+    "faqs": [
+      {
+        "question": "How is Fin priced?",
+        "answer": "Intercom lists Fin from $0.99 per standard outcome. Certain outcome types can carry different prices, and using Fin with an Intercom service plan can also involve seat charges."
+      },
+      {
+        "question": "Does Intercom provide a free trial for Fin?",
+        "answer": "Intercom's pricing material documents a 14-day trial for its service platform, with Fin and selected add-ons included according to the chosen setup."
+      },
+      {
+        "question": "Can Fin be called programmatically?",
+        "answer": "Yes. Intercom publishes a Fin Agent API for integrating Fin into custom customer-service experiences."
+      }
+    ],
     "privacy": {
       "policyUrl": "",
       "notes": "",
       "trainingOptOut": null
     },
     "testing": {
-      "method": "",
-      "notes": ""
+      "method": "Research supplied by the directory editor; not independently verified or hands-on tested for this import.",
+      "notes": "The research date is supplied by the source. Confirm current plans, restrictions and capabilities using the official links below."
     },
-    "sources": [],
+    "sources": [
+      {
+        "url": "https://www.intercom.com/fin",
+        "label": "Fin by Intercom"
+      },
+      {
+        "url": "https://www.intercom.com/pricing",
+        "label": "Intercom and Fin pricing"
+      },
+      {
+        "url": "https://developers.intercom.com/docs/guides/fin-agent-api",
+        "label": "Fin Agent API"
+      }
+    ],
     "dateAdded": "2026-09-12",
-    "lastVerified": "",
-    "seoTitle": "",
-    "metaDescription": "",
+    "lastVerified": "2026-09-13",
+    "seoTitle": "Fin by Intercom: Features, Pricing & Use Cases | AI Tool Trail",
+    "metaDescription": "Explore Fin by Intercom features, outcome pricing, trial access, support use cases, limitations and Fin Agent API availability.",
     "featured": false,
     "popularityEvidence": null,
-    "status": "draft",
+    "status": "published",
     "submission": {
       "name": "Fin by Intercom",
       "mainCategory": "AI Customer Support",
       "secondaryCategory": "AI Agent",
       "source": "User-provided list",
       "identityNeedsConfirmation": false
-    }
+    },
+    "researchSource": {
+      "file": "ai_tools_directory_research_2026-09-13.json",
+      "sourceVerificationDate": "2026-09-13"
+    },
+    "contentUpdated": "2026-09-13"
   },
   {
     "slug": "zendesk-ai",
     "name": "Zendesk AI",
-    "shortDescription": "",
-    "description": "",
-    "officialUrl": "",
+    "shortDescription": "Zendesk AI adds AI agents, agent assistance, routing and service automation to Zendesk's customer-support platform.",
+    "description": "Zendesk AI brings generative and automated service capabilities into the Zendesk support stack. Organizations can use AI agents for automated resolutions, assist human agents with contextual support work and combine AI with Zendesk's ticketing, messaging and service-management workflows, with AI usage and feature depth depending on the purchased Zendesk plan and resolution allowance.",
+    "officialUrl": "https://www.zendesk.com/service/ai/",
     "logo": null,
     "primaryCategory": "ai-customer-support",
     "categories": [
@@ -13437,64 +14085,126 @@
       "AI Customer Support",
       "Help Desk"
     ],
-    "bestFor": "",
-    "features": [],
-    "useCases": [],
-    "audiences": [],
+    "bestFor": "Support teams already using or considering Zendesk that want AI automation tightly integrated with ticketing and agent workflows.",
+    "features": [
+      "AI agents for automated customer resolutions",
+      "Agent-assistance capabilities",
+      "Ticket triage and routing support",
+      "Knowledge-based customer answers",
+      "Messaging and service-channel integration",
+      "AI-agent developer APIs"
+    ],
+    "useCases": [
+      "Automate common customer-service requests",
+      "Route and classify incoming tickets",
+      "Assist agents with faster responses",
+      "Provide AI support through digital messaging channels",
+      "Measure and expand automated resolution volume"
+    ],
+    "audiences": [
+      "customer support teams",
+      "contact centers",
+      "support operations",
+      "enterprise service teams",
+      "Zendesk customers"
+    ],
     "pricing": {
-      "model": "unknown",
-      "freePlan": null,
-      "freeTrial": null,
-      "startingPrice": null,
-      "currency": null,
-      "billingPeriod": null,
-      "url": "",
-      "notes": ""
+      "model": "subscription plus usage-based automated resolutions",
+      "freePlan": false,
+      "freeTrial": true,
+      "startingPrice": 19,
+      "currency": "USD",
+      "billingPeriod": "agent/month for the cited entry Zendesk support pricing; AI usage allowances may be separate",
+      "url": "https://www.zendesk.com/pricing/"
     },
-    "platforms": [],
+    "platforms": [
+      "Web",
+      "email",
+      "messaging",
+      "chat",
+      "voice through Zendesk services",
+      "API"
+    ],
     "api": {
-      "availability": "unknown",
-      "url": "",
-      "notes": ""
+      "availability": "yes"
     },
     "integrations": [],
     "languages": [],
-    "advantages": [],
-    "limitations": [],
+    "advantages": [
+      "AI is integrated with a mature ticketing and customer-service platform",
+      "AI agents are available within Zendesk service plans with usage allowances",
+      "Zendesk publishes developer APIs for AI-agent integrations"
+    ],
+    "limitations": [
+      "Automated-resolution usage can create variable AI costs beyond base subscriptions",
+      "Available AI features and trial capabilities vary by plan",
+      "Pricing becomes more complex when combining base seats, AI usage and advanced add-ons"
+    ],
     "alternatives": [],
     "screenshots": [],
-    "faqs": [],
+    "faqs": [
+      {
+        "question": "Does Zendesk AI have a free trial?",
+        "answer": "Zendesk advertises a 14-day trial of its service platform. The exact AI capabilities available during a trial can depend on the trial configuration."
+      },
+      {
+        "question": "How is AI-agent usage billed?",
+        "answer": "Zendesk measures AI-agent consumption through automated resolutions and provides plan allowances or additional capacity depending on the commercial setup."
+      },
+      {
+        "question": "Does Zendesk expose AI-agent APIs?",
+        "answer": "Yes. Zendesk publishes developer documentation for its AI Agents APIs."
+      }
+    ],
     "privacy": {
       "policyUrl": "",
       "notes": "",
       "trainingOptOut": null
     },
     "testing": {
-      "method": "",
-      "notes": ""
+      "method": "Research supplied by the directory editor; not independently verified or hands-on tested for this import.",
+      "notes": "The research date is supplied by the source. Confirm current plans, restrictions and capabilities using the official links below."
     },
-    "sources": [],
+    "sources": [
+      {
+        "url": "https://www.zendesk.com/service/ai/ai-agents/",
+        "label": "Zendesk AI Agents"
+      },
+      {
+        "url": "https://www.zendesk.com/pricing/",
+        "label": "Zendesk pricing"
+      },
+      {
+        "url": "https://developer.zendesk.com/api-reference/ai-agents/introduction/",
+        "label": "Zendesk AI Agents API"
+      }
+    ],
     "dateAdded": "2026-09-12",
-    "lastVerified": "",
-    "seoTitle": "",
-    "metaDescription": "",
+    "lastVerified": "2026-09-13",
+    "seoTitle": "Zendesk AI: Features, Pricing & Use Cases | AI Tool Trail",
+    "metaDescription": "Review Zendesk AI agents, automated-resolution pricing, trial access, service use cases, limitations and developer API options.",
     "featured": false,
     "popularityEvidence": null,
-    "status": "draft",
+    "status": "published",
     "submission": {
       "name": "Zendesk AI",
       "mainCategory": "AI Customer Support",
       "secondaryCategory": "Help Desk",
       "source": "User-provided list",
       "identityNeedsConfirmation": false
-    }
+    },
+    "researchSource": {
+      "file": "ai_tools_directory_research_2026-09-13.json",
+      "sourceVerificationDate": "2026-09-13"
+    },
+    "contentUpdated": "2026-09-13"
   },
   {
     "slug": "ada",
     "name": "Ada",
-    "shortDescription": "",
-    "description": "",
-    "officialUrl": "",
+    "shortDescription": "Ada is an enterprise AI customer-service platform for building and governing AI agents across messaging, email and voice interactions.",
+    "description": "Ada is positioned as an enterprise AI customer-experience platform rather than a lightweight chatbot builder. Organizations use it to build, operate and improve AI agents that answer questions, take actions through integrations and serve customers across multiple channels, with commercial terms primarily based on conversation volume and enterprise requirements.",
+    "officialUrl": "https://www.ada.cx/platform/",
     "logo": null,
     "primaryCategory": "ai-customer-support",
     "categories": [
@@ -13508,64 +14218,130 @@
       "AI Customer Support",
       "AI Agent"
     ],
-    "bestFor": "",
-    "features": [],
-    "useCases": [],
-    "audiences": [],
+    "bestFor": "Large customer-service organizations with substantial support volume that need a governed, multi-channel AI agent program.",
+    "features": [
+      "AI customer-service agents",
+      "Messaging, email and voice experiences",
+      "Knowledge and action integrations",
+      "Multilingual customer support",
+      "Conversation analytics and governance workflows",
+      "Developer and data-export APIs"
+    ],
+    "useCases": [
+      "Automate high-volume customer-service conversations",
+      "Serve customers across messaging, email and voice",
+      "Connect AI agents to backend business actions",
+      "Scale multilingual support",
+      "Govern and continuously improve an enterprise AI support program"
+    ],
+    "audiences": [
+      "enterprise customer-service teams",
+      "contact centers",
+      "CX leaders",
+      "support operations",
+      "large digital businesses"
+    ],
     "pricing": {
-      "model": "unknown",
+      "model": "usage-based enterprise pricing, primarily per conversation with resolution-based options",
       "freePlan": null,
       "freeTrial": null,
       "startingPrice": null,
       "currency": null,
-      "billingPeriod": null,
-      "url": "",
-      "notes": ""
+      "billingPeriod": "custom order-form terms",
+      "url": "https://www.ada.cx/platform/"
     },
-    "platforms": [],
+    "platforms": [
+      "Web",
+      "web and mobile SDKs",
+      "email",
+      "voice",
+      "WhatsApp and supported messaging channels",
+      "API"
+    ],
     "api": {
-      "availability": "unknown",
-      "url": "",
-      "notes": ""
+      "availability": "yes"
     },
     "integrations": [],
     "languages": [],
-    "advantages": [],
-    "limitations": [],
+    "advantages": [
+      "Designed for high-volume enterprise customer service",
+      "Supports multiple service channels and enterprise integrations",
+      "Official APIs are available for integration and data access"
+    ],
+    "limitations": [
+      "Public list pricing is not displayed; commercial terms are quote-based",
+      "Ada's own demo guidance targets relatively high support volumes, making it less suited to very small teams",
+      "Successful deployment requires ongoing governance, knowledge maintenance and AI-agent operations"
+    ],
     "alternatives": [],
     "screenshots": [],
-    "faqs": [],
+    "faqs": [
+      {
+        "question": "Does Ada charge per resolution or per conversation?",
+        "answer": "Ada states that conversation-based pricing is its primary model, while resolution-based pricing is also available for specific enterprise needs."
+      },
+      {
+        "question": "Is there a public Ada starting price?",
+        "answer": "No numerical public starting price was found on the official platform information checked, so startingPrice remains null."
+      },
+      {
+        "question": "Can Ada integrate with external systems?",
+        "answer": "Yes. Ada documents APIs and integrations for conversations, end users, data export and actions across customer-service workflows."
+      }
+    ],
     "privacy": {
       "policyUrl": "",
       "notes": "",
       "trainingOptOut": null
     },
     "testing": {
-      "method": "",
-      "notes": ""
+      "method": "Research supplied by the directory editor; not independently verified or hands-on tested for this import.",
+      "notes": "The research date is supplied by the source. Confirm current plans, restrictions and capabilities using the official links below."
     },
-    "sources": [],
+    "sources": [
+      {
+        "url": "https://www.ada.cx/platform/",
+        "label": "Ada platform and pricing model FAQ"
+      },
+      {
+        "url": "https://www.ada.cx/platform/integrations/",
+        "label": "Ada integrations"
+      },
+      {
+        "url": "https://docs.ada.cx/reference/introduction/overview",
+        "label": "Ada API documentation"
+      },
+      {
+        "url": "https://www.ada.cx/demo",
+        "label": "Ada demo and fit guidance"
+      }
+    ],
     "dateAdded": "2026-09-12",
-    "lastVerified": "",
-    "seoTitle": "",
-    "metaDescription": "",
+    "lastVerified": "2026-09-13",
+    "seoTitle": "Ada: Features, Pricing & Use Cases | AI Tool Trail",
+    "metaDescription": "Explore Ada's enterprise AI support platform, channels, conversation pricing model, integrations, APIs and practical deployment limitations.",
     "featured": false,
     "popularityEvidence": null,
-    "status": "draft",
+    "status": "published",
     "submission": {
       "name": "Ada",
       "mainCategory": "AI Customer Support",
       "secondaryCategory": "AI Agent",
       "source": "User-provided list",
       "identityNeedsConfirmation": false
-    }
+    },
+    "researchSource": {
+      "file": "ai_tools_directory_research_2026-09-13.json",
+      "sourceVerificationDate": "2026-09-13"
+    },
+    "contentUpdated": "2026-09-13"
   },
   {
     "slug": "forethought",
     "name": "Forethought",
-    "shortDescription": "",
-    "description": "",
-    "officialUrl": "",
+    "shortDescription": "Forethought provides AI agents and support-operations tools for resolving customer requests, assisting agents, triaging tickets and analyzing service quality.",
+    "description": "Forethought is an AI customer-support platform that combines autonomous resolution with agent assistance, triage and support intelligence. Its product suite is built for support organizations that want AI to handle customer conversations and also improve the surrounding service workflow, while commercial plans add channels, analytics, governance and API access.",
+    "officialUrl": "https://forethought.ai/",
     "logo": null,
     "primaryCategory": "ai-customer-support",
     "categories": [
@@ -13578,64 +14354,128 @@
       "AI Customer Support",
       "Support Automation"
     ],
-    "bestFor": "",
-    "features": [],
-    "useCases": [],
-    "audiences": [],
+    "bestFor": "Mid-market and enterprise support teams that want AI resolution plus triage, agent assistance and support analytics in one platform.",
+    "features": [
+      "AI support agents",
+      "Automated resolution workflows",
+      "Agent-assistance tools",
+      "Ticket triage",
+      "Support insights and QA",
+      "Email, voice and Slack options on higher tiers",
+      "Solve and analytics APIs on eligible plans"
+    ],
+    "useCases": [
+      "Resolve repetitive support tickets",
+      "Assist human support agents",
+      "Classify and route incoming requests",
+      "Analyze support trends and quality",
+      "Automate multi-step customer-service workflows"
+    ],
+    "audiences": [
+      "customer support teams",
+      "support operations",
+      "CX leaders",
+      "SaaS support organizations",
+      "enterprise service teams"
+    ],
     "pricing": {
-      "model": "unknown",
-      "freePlan": null,
-      "freeTrial": null,
+      "model": "platform subscription plus outcome-based usage",
+      "freePlan": false,
+      "freeTrial": false,
       "startingPrice": null,
       "currency": null,
       "billingPeriod": null,
-      "url": "",
-      "notes": ""
+      "url": "https://forethought.ai/pricing"
     },
-    "platforms": [],
+    "platforms": [
+      "Web",
+      "chat",
+      "mobile support channels",
+      "email",
+      "voice",
+      "Slack",
+      "API"
+    ],
     "api": {
-      "availability": "unknown",
-      "url": "",
-      "notes": ""
+      "availability": "yes"
     },
     "integrations": [],
     "languages": [],
-    "advantages": [],
-    "limitations": [],
+    "advantages": [
+      "Combines customer-facing automation with internal support operations",
+      "Supports multi-step workflows and multiple service channels on higher plans",
+      "Enterprise plans expose APIs for deeper integration"
+    ],
+    "limitations": [
+      "Pricing is quote-based rather than publicly listed",
+      "Forethought states that overage charges can apply depending on usage",
+      "It does not offer a traditional self-service free trial; evaluation is handled through a Proof of Value process"
+    ],
     "alternatives": [],
     "screenshots": [],
-    "faqs": [],
+    "faqs": [
+      {
+        "question": "Does Forethought publish its prices?",
+        "answer": "No public numeric starting price is shown on the checked pricing page; Team, Pro and Enterprise are sold through quote-based purchasing."
+      },
+      {
+        "question": "Can I start a normal free trial?",
+        "answer": "Forethought says it does not use a traditional free-trial model. Prospective customers can instead run a Proof of Value evaluation."
+      },
+      {
+        "question": "Does Forethought offer APIs?",
+        "answer": "Yes. Its pricing page lists Solve API and Analytics API capabilities in the higher-tier offering."
+      }
+    ],
     "privacy": {
       "policyUrl": "",
       "notes": "",
       "trainingOptOut": null
     },
     "testing": {
-      "method": "",
-      "notes": ""
+      "method": "Research supplied by the directory editor; not independently verified or hands-on tested for this import.",
+      "notes": "The research date is supplied by the source. Confirm current plans, restrictions and capabilities using the official links below."
     },
-    "sources": [],
+    "sources": [
+      {
+        "url": "https://forethought.ai/platform",
+        "label": "Forethought platform"
+      },
+      {
+        "url": "https://forethought.ai/pricing",
+        "label": "Forethought pricing"
+      },
+      {
+        "url": "https://forethought.ai/faq",
+        "label": "Forethought FAQ"
+      }
+    ],
     "dateAdded": "2026-09-12",
-    "lastVerified": "",
-    "seoTitle": "",
-    "metaDescription": "",
+    "lastVerified": "2026-09-13",
+    "seoTitle": "Forethought: Features, Pricing & Use Cases | AI Tool Trail",
+    "metaDescription": "See Forethought's AI support agents, triage and QA features, pricing model, Proof of Value approach, APIs and key limitations.",
     "featured": false,
     "popularityEvidence": null,
-    "status": "draft",
+    "status": "published",
     "submission": {
       "name": "Forethought",
       "mainCategory": "AI Customer Support",
       "secondaryCategory": "Support Automation",
       "source": "User-provided list",
       "identityNeedsConfirmation": false
-    }
+    },
+    "researchSource": {
+      "file": "ai_tools_directory_research_2026-09-13.json",
+      "sourceVerificationDate": "2026-09-13"
+    },
+    "contentUpdated": "2026-09-13"
   },
   {
     "slug": "decagon",
     "name": "Decagon",
-    "shortDescription": "",
-    "description": "",
-    "officialUrl": "",
+    "shortDescription": "Decagon is an enterprise AI customer-experience platform for deploying conversational agents that handle support and service workflows across chat, email and voice.",
+    "description": "Decagon helps enterprises build and operate AI agents that can communicate with customers and interact with connected business systems. Its approach emphasizes configurable agent behavior, integrations, versioning and operational controls across chat, email and voice, with pricing negotiated around usage models such as conversations or resolutions.",
+    "officialUrl": "https://decagon.ai/",
     "logo": null,
     "primaryCategory": "ai-customer-support",
     "categories": [
@@ -13649,64 +14489,130 @@
       "AI Customer Support",
       "AI Agent"
     ],
-    "bestFor": "",
-    "features": [],
-    "useCases": [],
-    "audiences": [],
+    "bestFor": "Enterprise support and CX teams that need highly integrated AI agents across several customer-service channels.",
+    "features": [
+      "AI customer-service agents",
+      "Chat, email and voice support",
+      "Agent behavior and workflow configuration",
+      "Prebuilt and custom integrations",
+      "Versioning and operational controls",
+      "API and MCP-based integration options"
+    ],
+    "useCases": [
+      "Automate customer-service conversations",
+      "Handle account or order workflows through backend integrations",
+      "Deploy AI agents consistently across chat, email and voice",
+      "Escalate complex cases into existing support systems",
+      "Connect agent actions to internal APIs"
+    ],
+    "audiences": [
+      "enterprise support teams",
+      "CX organizations",
+      "contact centers",
+      "support engineering teams",
+      "digital operations teams"
+    ],
     "pricing": {
-      "model": "unknown",
+      "model": "usage-based enterprise pricing, per conversation or per resolution",
       "freePlan": null,
       "freeTrial": null,
       "startingPrice": null,
       "currency": null,
-      "billingPeriod": null,
-      "url": "",
-      "notes": ""
+      "billingPeriod": "custom usage terms",
+      "url": "https://decagon.ai/blog/pricing-ai-agents"
     },
-    "platforms": [],
+    "platforms": [
+      "Web",
+      "chat",
+      "email",
+      "voice",
+      "API",
+      "MCP"
+    ],
     "api": {
-      "availability": "unknown",
-      "url": "",
-      "notes": ""
+      "availability": "yes"
     },
     "integrations": [],
     "languages": [],
-    "advantages": [],
-    "limitations": [],
+    "advantages": [
+      "Strong focus on operational enterprise AI agents rather than simple FAQ bots",
+      "Supports multiple customer-service channels",
+      "Offers integration through APIs, MCP and prebuilt connectors"
+    ],
+    "limitations": [
+      "No public list price is provided",
+      "Commercial deployment is sales-led and pricing varies with usage and negotiated model",
+      "Successful implementation depends on reliable integration with company knowledge, workflows and backend systems"
+    ],
     "alternatives": [],
     "screenshots": [],
-    "faqs": [],
+    "faqs": [
+      {
+        "question": "How does Decagon price AI agents?",
+        "answer": "Decagon describes both per-conversation and per-resolution pricing, with rates depending on customer volume and commercial terms; it says many customers choose per-conversation pricing."
+      },
+      {
+        "question": "Is there a public Decagon starting price?",
+        "answer": "No public numeric starting price was found in the official pricing material checked, so startingPrice is null."
+      },
+      {
+        "question": "Can Decagon connect to internal systems?",
+        "answer": "Yes. Decagon's integration material documents prebuilt integrations as well as APIs and MCP options for connecting agent workflows to external systems."
+      }
+    ],
     "privacy": {
       "policyUrl": "",
       "notes": "",
       "trainingOptOut": null
     },
     "testing": {
-      "method": "",
-      "notes": ""
+      "method": "Research supplied by the directory editor; not independently verified or hands-on tested for this import.",
+      "notes": "The research date is supplied by the source. Confirm current plans, restrictions and capabilities using the official links below."
     },
-    "sources": [],
+    "sources": [
+      {
+        "url": "https://decagon.ai/",
+        "label": "Decagon"
+      },
+      {
+        "url": "https://decagon.ai/product/overview",
+        "label": "Decagon product overview"
+      },
+      {
+        "url": "https://decagon.ai/product/integrations",
+        "label": "Decagon integrations"
+      },
+      {
+        "url": "https://decagon.ai/blog/pricing-ai-agents",
+        "label": "Decagon AI agent pricing explanation"
+      }
+    ],
     "dateAdded": "2026-09-12",
-    "lastVerified": "",
-    "seoTitle": "",
-    "metaDescription": "",
+    "lastVerified": "2026-09-13",
+    "seoTitle": "Decagon: Features, Pricing & Use Cases | AI Tool Trail",
+    "metaDescription": "Explore Decagon's AI support agents, chat/email/voice channels, integrations, pricing approach, APIs, ideal users and limitations.",
     "featured": false,
     "popularityEvidence": null,
-    "status": "draft",
+    "status": "published",
     "submission": {
       "name": "Decagon",
       "mainCategory": "AI Customer Support",
       "secondaryCategory": "AI Agent",
       "source": "User-provided list",
       "identityNeedsConfirmation": false
-    }
+    },
+    "researchSource": {
+      "file": "ai_tools_directory_research_2026-09-13.json",
+      "sourceVerificationDate": "2026-09-13"
+    },
+    "contentUpdated": "2026-09-13"
   },
   {
     "slug": "otter-ai",
     "name": "Otter.ai",
-    "shortDescription": "",
-    "description": "",
-    "officialUrl": "",
+    "shortDescription": "Otter.ai records and transcribes meetings, produces AI notes and answers questions about conversations across major meeting workflows.",
+    "description": "Otter.ai is an AI meeting assistant centered on live transcription, meeting notes, summaries and searchable conversation history. It can join or capture meetings, generate follow-up information and support individual or team collaboration, with plan differences around minutes, imports, meeting duration, concurrency, administration and API access.",
+    "officialUrl": "https://otter.ai/",
     "logo": null,
     "primaryCategory": "ai-meeting-assistants",
     "categories": [
@@ -13719,64 +14625,126 @@
       "AI Meeting Assistant",
       "Transcription"
     ],
-    "bestFor": "",
-    "features": [],
-    "useCases": [],
-    "audiences": [],
+    "bestFor": "Individuals and teams that want dependable meeting transcription, searchable notes and AI summaries across common conferencing platforms.",
+    "features": [
+      "Live meeting transcription",
+      "AI meeting summaries and chat",
+      "Speaker-aware notes",
+      "Audio and video imports",
+      "Searchable meeting history",
+      "Team collaboration",
+      "API and webhooks on eligible enterprise plans"
+    ],
+    "useCases": [
+      "Transcribe Zoom, Teams or Google Meet conversations",
+      "Generate meeting summaries and action items",
+      "Search past meetings for decisions",
+      "Import recorded conversations for transcription",
+      "Share meeting notes with colleagues"
+    ],
+    "audiences": [
+      "business teams",
+      "sales teams",
+      "students",
+      "researchers",
+      "remote teams"
+    ],
     "pricing": {
-      "model": "unknown",
-      "freePlan": null,
-      "freeTrial": null,
-      "startingPrice": null,
-      "currency": null,
-      "billingPeriod": null,
-      "url": "",
-      "notes": ""
+      "model": "freemium subscription",
+      "freePlan": true,
+      "freeTrial": true,
+      "startingPrice": 8.33,
+      "currency": "USD",
+      "billingPeriod": "user/month, billed annually; promotional display may vary",
+      "url": "https://otter.ai/pricing"
     },
-    "platforms": [],
+    "platforms": [
+      "Web",
+      "macOS",
+      "Windows",
+      "iOS",
+      "Android",
+      "Chrome extension",
+      "Zoom",
+      "Microsoft Teams",
+      "Google Meet"
+    ],
     "api": {
-      "availability": "unknown",
-      "url": "",
-      "notes": ""
+      "availability": "yes"
     },
     "integrations": [],
     "languages": [],
-    "advantages": [],
-    "limitations": [],
+    "advantages": [
+      "Permanent free plan with live transcription",
+      "Broad meeting-platform and device support",
+      "Enterprise tier includes API and webhooks"
+    ],
+    "limitations": [
+      "The free plan has monthly transcription-minute and import limits",
+      "Pro limits individual meeting duration and monthly imports",
+      "API and webhook access are reserved for Enterprise"
+    ],
     "alternatives": [],
     "screenshots": [],
-    "faqs": [],
+    "faqs": [
+      {
+        "question": "Can I use Otter for free?",
+        "answer": "Yes. Otter's Basic plan is free and includes a monthly transcription allowance and limited file imports."
+      },
+      {
+        "question": "Does Otter have a paid trial?",
+        "answer": "Otter's current product material advertises a 7-day free trial for eligible paid use."
+      },
+      {
+        "question": "Does Otter provide an API?",
+        "answer": "Yes, but the current pricing table places Otter API and webhooks in the Enterprise tier."
+      }
+    ],
     "privacy": {
       "policyUrl": "",
       "notes": "",
       "trainingOptOut": null
     },
     "testing": {
-      "method": "",
-      "notes": ""
+      "method": "Research supplied by the directory editor; not independently verified or hands-on tested for this import.",
+      "notes": "The research date is supplied by the source. Confirm current plans, restrictions and capabilities using the official links below."
     },
-    "sources": [],
+    "sources": [
+      {
+        "url": "https://otter.ai/pricing",
+        "label": "Otter pricing"
+      },
+      {
+        "url": "https://otter.ai/",
+        "label": "Otter product page"
+      }
+    ],
     "dateAdded": "2026-09-12",
-    "lastVerified": "",
-    "seoTitle": "",
-    "metaDescription": "",
+    "lastVerified": "2026-09-13",
+    "seoTitle": "Otter.ai: Features, Pricing & Use Cases | AI Tool Trail",
+    "metaDescription": "Explore Otter.ai transcription, meeting summaries, free and paid plans, platform support, limitations and Enterprise API access.",
     "featured": false,
     "popularityEvidence": null,
-    "status": "draft",
+    "status": "published",
     "submission": {
       "name": "Otter.ai",
       "mainCategory": "AI Meeting Assistant",
       "secondaryCategory": "Transcription",
       "source": "User-provided list",
       "identityNeedsConfirmation": false
-    }
+    },
+    "researchSource": {
+      "file": "ai_tools_directory_research_2026-09-13.json",
+      "sourceVerificationDate": "2026-09-13"
+    },
+    "contentUpdated": "2026-09-13"
   },
   {
     "slug": "fireflies-ai",
     "name": "Fireflies.ai",
-    "shortDescription": "",
-    "description": "",
-    "officialUrl": "",
+    "shortDescription": "Fireflies.ai records, transcribes, summarizes and analyzes meetings while connecting conversation data to collaboration and business tools.",
+    "description": "Fireflies.ai is an AI meeting assistant for capturing conversations and turning them into searchable transcripts, summaries and structured meeting intelligence. It works across major conferencing systems and adds team analytics, conversation intelligence and integrations as plans increase, while some advanced AI usage is governed by credits.",
+    "officialUrl": "https://fireflies.ai/",
     "logo": null,
     "primaryCategory": "ai-meeting-assistants",
     "categories": [
@@ -13789,64 +14757,125 @@
       "AI Meeting Assistant",
       "Transcription"
     ],
-    "bestFor": "",
-    "features": [],
-    "useCases": [],
-    "audiences": [],
+    "bestFor": "Teams that want meeting capture plus searchable conversation intelligence, integrations and automation across a broad collaboration stack.",
+    "features": [
+      "Meeting recording and transcription",
+      "AI-generated summaries",
+      "Searchable conversation history",
+      "Conversation intelligence",
+      "Team analytics",
+      "Meeting-platform integrations",
+      "GraphQL API"
+    ],
+    "useCases": [
+      "Automatically transcribe recurring meetings",
+      "Generate summaries and action items",
+      "Search calls for customer or project topics",
+      "Analyze team conversations",
+      "Send meeting data into CRM and workflow tools"
+    ],
+    "audiences": [
+      "sales teams",
+      "customer-success teams",
+      "recruiters",
+      "remote teams",
+      "operations teams"
+    ],
     "pricing": {
-      "model": "unknown",
-      "freePlan": null,
+      "model": "freemium subscription with AI credits",
+      "freePlan": true,
       "freeTrial": null,
-      "startingPrice": null,
-      "currency": null,
-      "billingPeriod": null,
-      "url": "",
-      "notes": ""
+      "startingPrice": 10,
+      "currency": "USD",
+      "billingPeriod": "seat/month, billed annually for Pro",
+      "url": "https://fireflies.ai/pricing"
     },
-    "platforms": [],
+    "platforms": [
+      "Web",
+      "desktop app",
+      "iOS",
+      "Android",
+      "Chrome extension",
+      "Zoom",
+      "Google Meet",
+      "Microsoft Teams"
+    ],
     "api": {
-      "availability": "unknown",
-      "url": "",
-      "notes": ""
+      "availability": "yes"
     },
     "integrations": [],
     "languages": [],
-    "advantages": [],
-    "limitations": [],
+    "advantages": [
+      "Free plan includes ongoing transcription access",
+      "Wide conferencing and integration coverage",
+      "Official GraphQL API supports programmatic access"
+    ],
+    "limitations": [
+      "The free plan has limited AI summaries, storage and AI credits",
+      "Advanced AI features can consume additional credits",
+      "Enterprise is annual-only and higher-level administration is plan-gated"
+    ],
     "alternatives": [],
     "screenshots": [],
-    "faqs": [],
+    "faqs": [
+      {
+        "question": "Is there a Fireflies free plan?",
+        "answer": "Yes. Fireflies lists a $0 Free tier with transcription, a limited AI-summary allowance, team storage and a monthly AI-credit allocation."
+      },
+      {
+        "question": "What is the entry paid price?",
+        "answer": "The current pricing page lists Pro from $10 per seat per month when billed annually, with a higher month-to-month rate."
+      },
+      {
+        "question": "Does Fireflies have an API?",
+        "answer": "Yes. Fireflies publishes a GraphQL API for programmatic access to supported meeting and workspace data."
+      }
+    ],
     "privacy": {
       "policyUrl": "",
       "notes": "",
       "trainingOptOut": null
     },
     "testing": {
-      "method": "",
-      "notes": ""
+      "method": "Research supplied by the directory editor; not independently verified or hands-on tested for this import.",
+      "notes": "The research date is supplied by the source. Confirm current plans, restrictions and capabilities using the official links below."
     },
-    "sources": [],
+    "sources": [
+      {
+        "url": "https://fireflies.ai/pricing",
+        "label": "Fireflies pricing"
+      },
+      {
+        "url": "https://docs.fireflies.ai/introduction",
+        "label": "Fireflies API documentation"
+      }
+    ],
     "dateAdded": "2026-09-12",
-    "lastVerified": "",
-    "seoTitle": "",
-    "metaDescription": "",
+    "lastVerified": "2026-09-13",
+    "seoTitle": "Fireflies.ai: Features, Pricing & Use Cases | AI Tool Trail",
+    "metaDescription": "Review Fireflies.ai meeting transcription, summaries, analytics, current pricing, free plan, AI-credit limits and GraphQL API.",
     "featured": false,
     "popularityEvidence": null,
-    "status": "draft",
+    "status": "published",
     "submission": {
       "name": "Fireflies.ai",
       "mainCategory": "AI Meeting Assistant",
       "secondaryCategory": "Transcription",
       "source": "User-provided list",
       "identityNeedsConfirmation": false
-    }
+    },
+    "researchSource": {
+      "file": "ai_tools_directory_research_2026-09-13.json",
+      "sourceVerificationDate": "2026-09-13"
+    },
+    "contentUpdated": "2026-09-13"
   },
   {
     "slug": "fathom",
     "name": "Fathom",
-    "shortDescription": "",
-    "description": "",
-    "officialUrl": "",
+    "shortDescription": "Fathom records and transcribes online meetings, creates AI summaries and follow-ups, and offers a notably capable free plan for individual users.",
+    "description": "Fathom is an AI meeting assistant for Zoom, Google Meet and Microsoft Teams that creates recordings, transcripts and summaries automatically. Individuals can keep unlimited recordings and transcripts on the free tier, while paid plans unlock broader AI summaries, follow-up generation, team features and more expansive search across meeting history.",
+    "officialUrl": "https://fathom.video/",
     "logo": null,
     "primaryCategory": "ai-meeting-assistants",
     "categories": [
@@ -13859,64 +14888,129 @@
       "AI Meeting Assistant",
       "Meeting Notes"
     ],
-    "bestFor": "",
-    "features": [],
-    "useCases": [],
-    "audiences": [],
+    "bestFor": "Individuals and teams that prioritize generous free recording/transcription and fast AI summaries for online meetings.",
+    "features": [
+      "Unlimited meeting recording and storage",
+      "Unlimited transcription",
+      "AI meeting summaries",
+      "AI action items and follow-up emails on paid plans",
+      "Ask Fathom meeting search",
+      "CRM and Zapier integrations",
+      "Public API"
+    ],
+    "useCases": [
+      "Record and transcribe customer or internal meetings",
+      "Generate meeting summaries automatically",
+      "Extract action items and draft follow-up emails",
+      "Search prior calls for decisions and context",
+      "Sync meeting outcomes into CRM workflows"
+    ],
+    "audiences": [
+      "individual professionals",
+      "sales teams",
+      "customer-success teams",
+      "recruiters",
+      "remote teams"
+    ],
     "pricing": {
-      "model": "unknown",
-      "freePlan": null,
-      "freeTrial": null,
-      "startingPrice": null,
-      "currency": null,
-      "billingPeriod": null,
-      "url": "",
-      "notes": ""
+      "model": "freemium subscription",
+      "freePlan": true,
+      "freeTrial": true,
+      "startingPrice": 15,
+      "currency": "USD",
+      "billingPeriod": "user/month for Premium at the cited monthly price",
+      "url": "https://fathom.video/pricing"
     },
-    "platforms": [],
+    "platforms": [
+      "Web",
+      "macOS",
+      "Windows",
+      "Chrome extension",
+      "Zoom app",
+      "Zoom",
+      "Google Meet",
+      "Microsoft Teams"
+    ],
     "api": {
-      "availability": "unknown",
-      "url": "",
-      "notes": ""
+      "availability": "yes"
     },
     "integrations": [],
     "languages": [],
-    "advantages": [],
-    "limitations": [],
+    "advantages": [
+      "Free individual plan includes unlimited recordings, storage and transcription",
+      "30-day Premium preview gives individuals a substantial trial of advanced features",
+      "Public developer API is documented"
+    ],
+    "limitations": [
+      "Free users receive only a limited number of advanced AI summaries each month",
+      "Some cross-meeting search depth is restricted by plan",
+      "Team and Business functionality requires paid seats under current packaging"
+    ],
     "alternatives": [],
     "screenshots": [],
-    "faqs": [],
+    "faqs": [
+      {
+        "question": "Can individuals use Fathom for free indefinitely?",
+        "answer": "Yes. Fathom's help center states that the individual Free plan keeps unlimited recordings, storage and transcription after the Premium preview ends."
+      },
+      {
+        "question": "How long is Fathom's Premium preview?",
+        "answer": "Fathom's current help documentation says individuals receive a 30-day Premium preview after signup, with no obligation to upgrade afterward."
+      },
+      {
+        "question": "Does Fathom offer a public API?",
+        "answer": "Yes. Fathom documents a public API and states a default limit of 60 calls per minute."
+      }
+    ],
     "privacy": {
       "policyUrl": "",
       "notes": "",
       "trainingOptOut": null
     },
     "testing": {
-      "method": "",
-      "notes": ""
+      "method": "Research supplied by the directory editor; not independently verified or hands-on tested for this import.",
+      "notes": "The research date is supplied by the source. Confirm current plans, restrictions and capabilities using the official links below."
     },
-    "sources": [],
+    "sources": [
+      {
+        "url": "https://fathom.video/pricing",
+        "label": "Fathom pricing"
+      },
+      {
+        "url": "https://help.fathom.video/en/articles/5290881",
+        "label": "Fathom Free vs Premium"
+      },
+      {
+        "url": "https://help.fathom.video/en/articles/8368641",
+        "label": "Fathom public API"
+      }
+    ],
     "dateAdded": "2026-09-12",
-    "lastVerified": "",
-    "seoTitle": "",
-    "metaDescription": "",
+    "lastVerified": "2026-09-13",
+    "seoTitle": "Fathom: Features, Pricing & Use Cases | AI Tool Trail",
+    "metaDescription": "See Fathom's free meeting recording, transcription, AI summaries, Premium preview, team limitations and public API details.",
     "featured": false,
     "popularityEvidence": null,
-    "status": "draft",
+    "status": "published",
     "submission": {
       "name": "Fathom",
       "mainCategory": "AI Meeting Assistant",
       "secondaryCategory": "Meeting Notes",
       "source": "User-provided list",
       "identityNeedsConfirmation": false
-    }
+    },
+    "researchSource": {
+      "file": "ai_tools_directory_research_2026-09-13.json",
+      "sourceVerificationDate": "2026-09-13"
+    },
+    "contentUpdated": "2026-09-13"
   },
   {
     "slug": "tl-dv",
     "name": "tl;dv",
-    "shortDescription": "",
-    "description": "",
-    "officialUrl": "",
+    "shortDescription": "tl;dv records and transcribes online meetings, generates AI notes and multi-meeting insights, and connects conversation data to sales and workflow tools.",
+    "description": "tl;dv is an AI meeting assistant designed for meeting capture plus downstream conversation intelligence. Its free tier covers ongoing recording and transcription with capped AI usage, while paid plans unlock unlimited AI notes, broader search, integrations, automation and sales-oriented multi-meeting analysis.",
+    "officialUrl": "https://tldv.io/",
     "logo": null,
     "primaryCategory": "ai-meeting-assistants",
     "categories": [
@@ -13929,64 +15023,126 @@
       "AI Meeting Assistant",
       "Meeting Recording"
     ],
-    "bestFor": "",
-    "features": [],
-    "useCases": [],
-    "audiences": [],
+    "bestFor": "Teams that want generous meeting recording plus AI notes, CRM automation and cross-meeting intelligence for sales or customer workflows.",
+    "features": [
+      "Meeting recording and transcription",
+      "AI-generated notes and Ask tl;dv",
+      "Multi-meeting reports",
+      "Clips and highlights",
+      "CRM and workflow integrations",
+      "Sales coaching and playbook features on higher plans",
+      "Public API and webhooks"
+    ],
+    "useCases": [
+      "Record and transcribe online meetings",
+      "Generate recurring AI meeting notes",
+      "Search conversations across many meetings",
+      "Push call data into CRM workflows",
+      "Analyze sales objections and playbook adherence"
+    ],
+    "audiences": [
+      "sales teams",
+      "customer-success teams",
+      "remote teams",
+      "recruiters",
+      "revenue operations"
+    ],
     "pricing": {
-      "model": "unknown",
-      "freePlan": null,
+      "model": "freemium subscription",
+      "freePlan": true,
       "freeTrial": null,
-      "startingPrice": null,
-      "currency": null,
-      "billingPeriod": null,
-      "url": "",
-      "notes": ""
+      "startingPrice": 18,
+      "currency": "USD",
+      "billingPeriod": "seat/month, billed annually for Pro; $29 on monthly billing",
+      "url": "https://tldv.io/app/pricing"
     },
-    "platforms": [],
+    "platforms": [
+      "Web",
+      "browser extension",
+      "Google Meet",
+      "Zoom",
+      "Microsoft Teams"
+    ],
     "api": {
-      "availability": "unknown",
-      "url": "",
-      "notes": ""
+      "availability": "yes"
     },
     "integrations": [],
     "languages": [],
-    "advantages": [],
-    "limitations": [],
+    "advantages": [
+      "Free plan provides unlimited recording and transcription with capped AI features",
+      "Pro adds extensive integrations and unlimited AI-note usage",
+      "Public API and webhooks support automation"
+    ],
+    "limitations": [
+      "Free-tier AI notes and Ask AI usage are capped",
+      "Some free meeting data is subject to retention/archive limits",
+      "The public API is currently labeled v1alpha1 and may change"
+    ],
     "alternatives": [],
     "screenshots": [],
-    "faqs": [],
+    "faqs": [
+      {
+        "question": "Does tl;dv have a permanent free plan?",
+        "answer": "Yes. tl;dv's current official material lists a Free Forever plan with unlimited recording and transcription while capping AI-note and Ask AI usage."
+      },
+      {
+        "question": "How much is tl;dv Pro?",
+        "answer": "Current official tl;dv material lists Pro at $18 per seat per month when billed annually and $29 on month-to-month billing."
+      },
+      {
+        "question": "Is the tl;dv API production-stable?",
+        "answer": "A public API exists, but the official documentation currently identifies it as v1alpha1, so integrations should allow for possible API changes."
+      }
+    ],
     "privacy": {
       "policyUrl": "",
       "notes": "",
       "trainingOptOut": null
     },
     "testing": {
-      "method": "",
-      "notes": ""
+      "method": "Research supplied by the directory editor; not independently verified or hands-on tested for this import.",
+      "notes": "The research date is supplied by the source. Confirm current plans, restrictions and capabilities using the official links below."
     },
-    "sources": [],
+    "sources": [
+      {
+        "url": "https://tldv.io/app/pricing",
+        "label": "tl;dv pricing"
+      },
+      {
+        "url": "https://tldv.io/blog/tldv-vs-bluedot/",
+        "label": "tl;dv official 2026 pricing comparison"
+      },
+      {
+        "url": "https://doc.tldv.io/index.html",
+        "label": "tl;dv public API"
+      }
+    ],
     "dateAdded": "2026-09-12",
-    "lastVerified": "",
-    "seoTitle": "",
-    "metaDescription": "",
+    "lastVerified": "2026-09-13",
+    "seoTitle": "tl;dv: Features, Pricing & Use Cases | AI Tool Trail",
+    "metaDescription": "Explore tl;dv meeting recording, AI notes, CRM workflows, 2026 pricing, free-plan limits and its v1alpha1 public API.",
     "featured": false,
     "popularityEvidence": null,
-    "status": "draft",
+    "status": "published",
     "submission": {
       "name": "tl;dv",
       "mainCategory": "AI Meeting Assistant",
       "secondaryCategory": "Meeting Recording",
       "source": "User-provided list",
       "identityNeedsConfirmation": false
-    }
+    },
+    "researchSource": {
+      "file": "ai_tools_directory_research_2026-09-13.json",
+      "sourceVerificationDate": "2026-09-13"
+    },
+    "contentUpdated": "2026-09-13"
   },
   {
     "slug": "avoma",
     "name": "Avoma",
-    "shortDescription": "",
-    "description": "",
-    "officialUrl": "",
+    "shortDescription": "Avoma combines AI meeting recording and notes with conversation and revenue intelligence for customer-facing teams.",
+    "description": "Avoma is an AI meeting and revenue-intelligence platform that records, transcribes and summarizes conversations while layering on collaboration and sales-oriented analysis. Its base plans are priced per recorder seat, with viewers and collaborators free, while conversation-intelligence, revenue-intelligence and routing functionality can be added separately.",
+    "officialUrl": "https://www.avoma.com/",
     "logo": null,
     "primaryCategory": "ai-meeting-assistants",
     "categories": [
@@ -13999,56 +15155,122 @@
       "AI Meeting Assistant",
       "Conversation Intelligence"
     ],
-    "bestFor": "",
-    "features": [],
-    "useCases": [],
-    "audiences": [],
+    "bestFor": "Sales, customer-success and revenue teams that want meeting notes plus structured conversation and revenue intelligence.",
+    "features": [
+      "Meeting recording and transcription",
+      "AI summaries and notes",
+      "Searchable meeting library",
+      "Conversation intelligence add-on",
+      "Revenue intelligence add-on",
+      "Lead routing add-on",
+      "CRM and conferencing integrations",
+      "API on eligible plans"
+    ],
+    "useCases": [
+      "Record and summarize sales calls",
+      "Create searchable customer-meeting notes",
+      "Analyze sales conversations",
+      "Track deal and revenue signals",
+      "Share call context with non-recording collaborators"
+    ],
+    "audiences": [
+      "sales teams",
+      "customer-success teams",
+      "revenue operations",
+      "account managers",
+      "sales leaders"
+    ],
     "pricing": {
-      "model": "unknown",
-      "freePlan": null,
-      "freeTrial": null,
-      "startingPrice": null,
-      "currency": null,
-      "billingPeriod": null,
-      "url": "",
-      "notes": ""
+      "model": "subscription per recorder seat plus optional add-ons",
+      "freePlan": false,
+      "freeTrial": true,
+      "startingPrice": 19,
+      "currency": "USD",
+      "billingPeriod": "recorder/month, billed annually for Startup",
+      "url": "https://www.avoma.com/pricing"
     },
-    "platforms": [],
+    "platforms": [
+      "Web",
+      "iOS",
+      "Android",
+      "Zoom",
+      "Google Meet",
+      "Microsoft Teams",
+      "Webex",
+      "GoToMeeting"
+    ],
     "api": {
-      "availability": "unknown",
-      "url": "",
-      "notes": ""
+      "availability": "yes"
     },
     "integrations": [],
     "languages": [],
-    "advantages": [],
-    "limitations": [],
+    "advantages": [
+      "Viewers and collaborators can access shared content without paid recorder seats",
+      "Base product includes unlimited transcription on paid recorder plans",
+      "Combines meeting assistance with optional revenue and conversation intelligence"
+    ],
+    "limitations": [
+      "Users who need to record must move to a paid recorder seat after the trial",
+      "All recorder users in an organization are placed on the same base plan",
+      "Advanced conversation intelligence, revenue intelligence and lead routing are separately priced add-ons"
+    ],
     "alternatives": [],
     "screenshots": [],
-    "faqs": [],
+    "faqs": [
+      {
+        "question": "Does Avoma offer a free trial?",
+        "answer": "Yes. Avoma's pricing page advertises a 14-day unrestricted Organization-plan trial without requiring a credit card."
+      },
+      {
+        "question": "Can people view Avoma content without a paid recorder seat?",
+        "answer": "Yes. Avoma distinguishes paid recorder users from viewers/collaborators, who can remain free but cannot record new meetings after the trial."
+      },
+      {
+        "question": "Does Avoma have an API?",
+        "answer": "Yes. Avoma documents API access on eligible plans; its help documentation notes a default rate limit of 60 requests per minute."
+      }
+    ],
     "privacy": {
       "policyUrl": "",
       "notes": "",
       "trainingOptOut": null
     },
     "testing": {
-      "method": "",
-      "notes": ""
+      "method": "Research supplied by the directory editor; not independently verified or hands-on tested for this import.",
+      "notes": "The research date is supplied by the source. Confirm current plans, restrictions and capabilities using the official links below."
     },
-    "sources": [],
+    "sources": [
+      {
+        "url": "https://www.avoma.com/pricing",
+        "label": "Avoma pricing"
+      },
+      {
+        "url": "https://www.avoma.com/product/ai-meeting-assistant",
+        "label": "Avoma AI Meeting Assistant"
+      },
+      {
+        "url": "https://help.avoma.com/api-documentation",
+        "label": "Avoma API documentation"
+      }
+    ],
     "dateAdded": "2026-09-12",
-    "lastVerified": "",
-    "seoTitle": "",
-    "metaDescription": "",
+    "lastVerified": "2026-09-13",
+    "seoTitle": "Avoma: Features, Pricing & Use Cases | AI Tool Trail",
+    "metaDescription": "Review Avoma's meeting assistant, conversation and revenue intelligence, recorder-seat pricing, free trial, add-ons and API access.",
     "featured": false,
     "popularityEvidence": null,
-    "status": "draft",
+    "status": "published",
     "submission": {
       "name": "Avoma",
       "mainCategory": "AI Meeting Assistant",
       "secondaryCategory": "Conversation Intelligence",
       "source": "User-provided list",
       "identityNeedsConfirmation": false
-    }
+    },
+    "researchSource": {
+      "file": "ai_tools_directory_research_2026-09-13.json",
+      "sourceVerificationDate": "2026-09-13"
+    },
+    "contentUpdated": "2026-09-13"
   }
 ]
