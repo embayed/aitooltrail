@@ -1,0 +1,7 @@
+[
+ ["chatgpt","claude"],["chatgpt","gemini"],["claude","gemini"],["chatgpt","perplexity"],
+ ["github-copilot","cursor"],["midjourney","adobe-firefly"],["midjourney","ideogram"],
+ ["runway","pika"],["suno","udio"],["jasper","writesonic"],["otter-ai","fireflies-ai"],
+ ["gamma","beautiful-ai"],["elicit","consensus"],["zapier-ai","n8n"],["heygen","synthesia"],
+ ["elevenlabs","murf"],["surfer","clearscope"],["canva-ai","figma-ai"]
+]
